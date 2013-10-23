@@ -1,0 +1,2772 @@
+/*!
+ * VisualEditor MediaWiki Initialization ViewPageTarget raster icon styles.
+ *
+ * @copyright 2011-2013 VisualEditor Team and others; see AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+/* FIXME use icon classes */
+
+.ve-init-mw-viewPageTarget-saveDialog-prevButton {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAB5QTFRFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtyhvagAAAAp0Uk5TAAwYJDBId5uzv/5ZVBoAAAAxSURBVBiVY2CgDmBG5kQmINisMwuRJKYLkCihOdMB2axmZFtmGBAp1YTDbaiuJgkAALRGDUzZ1H2KAAAAAElFTkSuQmCC);
+	background-image: url(//bits.wikimedia.org/static-1.22wmf22/extensions/VisualEditor/modules/ve-mw/init/styles/../../../ve/ui/styles/images/icons/move-rtl.png?2013-10-17T16:28:20Z)!ie;
+}
+
+.ve-init-mw-viewPageTarget-saveDialog-closeButton {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABJQTFRFAAAAAAAAAAAAAAAAAAAAAAAA4CsZogAAAAZ0Uk5TAAwkg7O/80MkRgAAADlJREFUGNNjYKAxYFJA4qg4IUm4hiCkVEJcnRASTipwKSCLCSYFZsCkmEE0k6sBmMNoBCKVBRjoBgA+OQb669v2sQAAAABJRU5ErkJggg==);
+	background-image: url(//bits.wikimedia.org/static-1.22wmf22/extensions/VisualEditor/modules/ve-mw/init/styles/../../../ve/ui/styles/images/icons/collapse.png?2013-10-17T16:28:20Z)!ie;
+}/*!
+ * VisualEditor MediaWiki Initialization ViewPageTarget vector icon styles.
+ *
+ * @copyright 2011-2013 VisualEditor Team and others; see AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-init-mw-viewPageTarget-saveDialog-prevButton {
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIyNHB4IgoJIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNCAyNDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8ZyBpZD0ibW92ZS1ydGwiIHN0eWxlPSJvcGFjaXR5OjAuNzU7Ij4KCTxwb2x5Z29uIGlkPSJhcnJvd185XyIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkOyIgcG9pbnRzPSIxNS4wNjUsMTcuNzg2IDkuNzYzLDEyLjQ4MyAxNS4wNjUsNy4xODEKCQkxMy42NTEsNS43NjcgNi45MzUsMTIuNDgzIDEzLjY1MSwxOS4yIi8+CjwvZz4KPC9zdmc+Cg==);
+	background-image: url(//bits.wikimedia.org/static-1.22wmf22/extensions/VisualEditor/modules/ve-mw/init/styles/../../../ve/ui/styles/images/icons/move-rtl.svg?2013-10-17T16:28:20Z)!ie;
+}
+
+.ve-init-mw-viewPageTarget-saveDialog-closeButton {
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIyNHB4IgoJIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNCAyNDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8ZyBpZD0iY29sbGFwc2UiIHN0eWxlPSJvcGFjaXR5OjAuNzU7Ij4KCTxwb2x5Z29uIGlkPSJhcnJvdyIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkOyIgcG9pbnRzPSI2LjY5NywxNS43MTQgMTIsMTAuNDEyIDE3LjMwMywxNS43MTQgMTguNzE3LDE0LjMgMTIsNy41ODMgNS4yODMsMTQuMyIvPgo8L2c+Cjwvc3ZnPgo=);
+	background-image: url(//bits.wikimedia.org/static-1.22wmf22/extensions/VisualEditor/modules/ve-mw/init/styles/../../../ve/ui/styles/images/icons/collapse.svg?2013-10-17T16:28:20Z)!ie;
+}/*!
+ * VisualEditor MediaWiki Initialization ViewPageTarget styles.
+ *
+ * @copyright 2011-2013 VisualEditor Team and others; see AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+/* VisualEditor */
+
+.ve-init-mw-viewPageTarget-transform {
+	-webkit-transition: opacity 200ms ease-out;
+	-moz-transition: opacity 200ms ease-out;
+	-o-transition: opacity 200ms ease-out;
+	transition: opacity 200ms ease-out;
+}
+
+.ve-init-mw-viewPageTarget-transform-muted {
+	opacity: 0.6;
+}
+
+.ve-init-mw-viewPageTarget-transform-hidden {
+	opacity: 0;
+}
+
+.ve-init-mw-viewPageTarget-pageTitle {
+	cursor: default;
+}
+
+.ve-init-mw-viewPageTarget-loading {
+	width: 128px;
+	height: 15px;
+	float: right;
+}
+
+/* Toolbar */
+
+.ve-init-mw-viewPageTarget-toolbar-utilites,
+.ve-init-mw-viewPageTarget-toolbar-actions {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.ve-init-mw-viewPageTarget-toolbar-utilites {
+	margin-right: 1em;
+}
+
+.ve-init-mw-viewPageTarget-toolbar-utilites > .ve-ui-iconButtonWidget {
+	margin-right: 0.2em;
+	margin-top: 0.2em;
+}
+
+.ve-init-mw-viewPageTarget-toolbar-actions > .ve-ui-pushButtonWidget {
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+	margin-top: 0.2em;
+}
+
+/* Needs to override .ve-ui.widget.ve-ui-widget-disabled */
+.ve-ui-toolbar-actions .ve-init-mw-viewPageTarget-waiting.ve-ui-widget.ve-ui-widget-disabled {
+	cursor: progress;
+}
+
+/* Tools */
+
+.ve-init-mw-viewPageTarget-tool {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	line-height: 2.8em;
+	margin-right: 1em;
+	padding-left: 30px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.ve-init-mw-viewPageTarget-tool-label {
+	color: #555555;
+}
+
+.ve-init-mw-viewPageTarget-tool-beta-label {
+	font-size: 120%;
+	font-variant: small-caps;
+}
+
+.ve-init-mw-viewPageTarget-tool:hover .ve-init-mw-viewPageTarget-tool-label,
+.ve-init-mw-viewPageTarget-subtool-label:hover {
+	text-decoration: underline;
+}
+
+.ve-init-mw-viewPageTarget-editNotices,
+.ve-init-mw-viewPageTarget-betaNotices {
+	padding: 0.5em 1em;
+}
+
+.ve-init-mw-viewPageTarget-toolbar .ve-ui-popupButtonWidget .ve-ui-popupWidget-popup,
+.ve-init-mw-viewPageTarget-toolbar .ve-ui-popupButtonWidget .ve-ui-popupWidget-tail {
+	z-index: 4;
+}
+
+.ve-init-mw-viewPageTarget-editNotices-notice:not(:first-child),
+.ve-init-mw-viewPageTarget-betaNotices-notice:not(:first-child) {
+	border-top: solid 1px #ddd;
+	padding-top: 0.8em;
+	margin-top: 0.8em;
+}
+
+.ve-init-mw-viewPageTarget-betaNotices-notice > .ve-ui-iconButtonWidget {
+	display: block;
+	margin: 0.5em 0;
+}
+
+.ve-init-mw-viewPageTarget-betaNotices-notice > .ve-ui-iconButtonWidget:first-child {
+	margin-top: 0;
+}
+
+.ve-init-mw-ViewPageTarget-version-label,
+.ve-init-mw-ViewPageTarget-version-link,
+.ve-init-mw-ViewPageTarget-version-date {
+	font-size: 0.8em;
+	color: #555;
+}
+
+/* Images */
+
+.ve-init-mw-viewPageTarget-loading,
+.ve-ui-mwSaveDialog-working {
+	background-image: url(data:image/gif;base64,R0lGODlhgAAPAPEAAP///6fX+eXy/KfX+SH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAgAAPAAACo5QvoIC33NKKUtF3Z8RbN/55CEiNonMaJGp1bfiaMQvBtXzTpZuradUDZmY+opA3DK6KwaQTCbU9pVHc1LrDUrfarq765Ya9u+VRzLyO12lwG10yy39zY11Jz9t/6jf5/HfXB8hGWKaHt6eYyDgo6BaH6CgJ+QhnmWWoiVnI6ddJmbkZGkgKujhplNpYafr5OooqGst66Uq7OpjbKmvbW/p7UAAAIfkECQoAAAAsAAAAAIAADwAAArCcP6Ag7bLYa3HSZSG2le/Zgd8TkqODHKWzXkrWaq83i7V5s6cr2f2TMsSGO9lPl+PBisSkcekMJphUZ/OopGGfWug2Jr16x92yj3w247bh6teNXseRbyvc0rbr6/x5Ng0op4YSJDb4JxhI58eliEiYYujYmFi5eEh5OZnXhylp+RiaKQpWeDf5qQk6yprawMno2nq6KlsaSauqS5rLu8cI69k7+ytcvGl6XDtsyzxcAAAh+QQJCgAAACwAAAAAgAAPAAACvpw/oIC3IKIUb8pq6cpacWyBk3htGRk1xqMmZviOcemdc4R2kF3DvfyTtFiqnPGm+yCPQdzy2RQMF9Moc+fDArU0rtMK9SYzVUYxrASrxdc0G00+K8ruOu+9tmf1W06ZfsfXJfiFZ0g4ZvEndxjouPfYFzk4mcIICJkpqUnJWYiYs9jQVpm4edqJ+lkqikDqaZoquwr7OtHqAFerqxpL2xt6yQjKO+t7bGuMu1L8a5zsHI2MtOySVwo9fb0bVQAAIfkECQoAAAAsAAAAAIAADwAAAsucP6CAt9zSErSKZyvOd/KdgZaoeaFpRZKiPi1aKlwnfzBF4jcNzDk/e7EiLuLuhzwqayfmaNnjCCGNYhXqw9qcsWjT++TqxIKp2UhOprXf7PoNrpyvQ3p8fAdu82o+O5w3h2A1+Nfl5geHuLgXhEZVWBeZSMnY1oh5qZnyKOhgiGcJKHqYOSrVmWpHGmpauvl6CkvhaUD4qejaOqvH2+doV7tSqdsrexybvMsZrDrJaqwcvSz9i9qM/Vxs7Qs6/S18a+vNjUx9/v1TAAAh+QQJCgAAACwAAAAAgAAPAAAC0Zw/oIC33NKKUomLxct4c718oPV5nJmhGPWwU9TCYTmfdXp3+aXy+wgQuRRDSCN2/PWAoqVTCSVxilQZ0RqkSXFbXdf3ZWqztnA1eUUbEc9wm8yFe+VguniKPbNf6mbU/ubn9ieUZ6hWJAhIOKbo2Pih58C3l1a5OJiJuflYZidpgHSZCOnZGXc6l3oBWrE2aQnLWYpKq2pbV4h4OIq1eldrigt8i7d73Ns3HLjMKGycHC1L+hxsXXydO9wqOu3brPnLXL3C640sK+6cTaxNflEAACH5BAkKAAAALAAAAACAAA8AAALVnD+ggLfc0opS0SeyFnjn7oGbqJHf4mXXFD2r1bKNyaEpjduhPvLaC5nJEK4YTKhI1ZI334m5g/akJacAiDUGiUOHNUd9ApTgcTN81WaRW++Riy6Tv/S4dQ1vG4ps4NwOaBYlOEVYhYbnplexyJf3ZygGOXkWuWSZuNel+aboV0k5GFo4+qN22of6CMoq2kr6apo6m5fJWCoZm+vKu2Hr6KmqiHtJLKebRhuszNlYZ3ncewh9J9z8u3mLHA0rvetrzYjd2Wz8bB6oNO5MLq6FTp2+bVUAACH5BAkKAAAALAAAAACAAA8AAALanD+ggLfc0opS0XeX2Fy8zn2gp40ieHaZFWHt9LKNO5eo3aUhvisj6RutIDUZgnaEFYnJ4M2Z4210UykQ8BtqY0yHstk1UK+/sdk63i7VYLYX2sOa0HR41S5wi7/vcMWP1FdWJ/dUGIWXxqX3xxi4l0g4GEl5yOHIBwmY2cg1aXkHSjZXmbV4uoba5kkqelbaapo6u0rbN/SZG7trKFv7e6savKTby4voaoVpNAysiXscV4w8fSn8fN1pq1kd2j1qDLK8yYy9/ff9mgwrnv2o7QwvGO1ND049UgAAIfkECQoAAAAsAAAAAIAADwAAAticP6CAt9zSilLRd2d8onvBfV0okp/pZdamNRi7ui3yyoo4Ljio42h+w6kgNiJt5kAaasdYE7D78YKlXpX6GWphxqTT210qK1Cf9XT2SKXbYvv5Bg+jaWD5ekdjU9y4+PsXRuZHRrdnZ5inVidAyCTXF+nGlVhpdjil2OE49hjICVh4qZlpibcDKug5KAlHOWqqR8rWCjl564oLFruIucaYGlz7+XoKe2wsIqxLzMxaxIuILIs6/JyLbZsdGF063Uu6vH2tXc79LZ1MLWS96t4JH/rryzhPWgAAIfkECQoAAAAsAAAAAIAADwAAAtWcP6CAt9zSilLRd2fEe4kPCk8IjqTonZnVsQ33arGLwLV8Kyeqnyb5C60gM2LO6MAlaUukwdbcBUspYFXYcla00KfSywRzv1vpldqzprHFoTv7bsOz5jUaUMer5vL+Mf7Hd5RH6HP2AdiUKLa41Tj1Acmjp0bJFuinKKiZyUhnaBd5OLnzSNbluOnZWQZqeVdIYhqWyop6ezoquTs6O0aLC5wrHErqGnvJibms3LzKLIYMe7xnO/yL7TskLVosqa1aCy3u3FrJbSwbHpy9fr1NfR4fUgAAIfkECQoAAAAsAAAAAIAADwAAAsqcP6CAt9zSilLRd2fEW7cnhKIAjmFpZla3fh7CuS38OrUR04p5Ljzp46kgMqLOaJslkbhbhfkc/lAjqmiIZUFzy2zRe5wGTdYQuKs9N5XrrZPbFu94ZYE6ms5/9cd7/T824vdGyIa3h9inJQfA+DNoCHeomIhWGUcXKFIH6RZZ6Bna6Zg5l8JnSamayto2WtoI+4jqSjvZelt7+URKpmlmKykM2vnqa1r1axdMzPz5LLooO326Owxd7Bzam4x8pZ1t3Szu3VMOdF4AACH5BAkKAAAALAAAAACAAA8AAAK/nD+ggLfc0opS0XdnxFs3/i3CSApPSWZWt4YtAsKe/DqzXRsxDqDj6VNBXENakSdMso66WzNX6fmAKCXRasQil9onM+oziYLc8tWcRW/PbGOYWupG5Tsv3TlXe9/jqj7ftpYWaPdXBzbVF2eId+jYCAn1KKlIApfCSKn5NckZ6bnJpxB2t1kKinoqJCrlRwg4GCs4W/jayUqamaqryruES2b72StsqgvsKlurDEvbvOx8mzgazNxJbD18PN1aUgAAIfkECQoAAAAsAAAAAIAADwAAArKcP6CAt9zSilLRd2fEWzf+ecgjlKaQWZ0asqPowAb4urE9yxXUAqeZ4tWEN2IOtwsqV8YkM/grLXvTYbV4PTZpWGYU9QxTxVZyd4wu975ZZ/qsjsPn2jYpatdx62b+2y8HWMTW5xZoSIcouKjYePeTh7TnqFcpabmFSfhHeemZ+RkJOrp5OHmKKapa+Hiyyokaypo6q1CaGDv6akoLu3DLmLuL28v7CdypW6vsK9vsE1UAACH5BAkKAAAALAAAAACAAA8AAAKjnD+ggLfc0opS0XdnxFs3/nkISI2icxokanVt+JoxC8G1fNOlm6tp1QNmZj6ikDcMrorBpBMJtT2lUdzUusNSt9qurvrlhr275VHMvI7XaXAbXTLLf3NjXUnP23/qN/n8d9cHyEZYpoe3p5jIOCjoFofoKAn5CGeZZaiJWcjp10mZuRkaSAq6OGmU2lhp+vk6iioay3rpSrs6mNsqa9tb+ntQAAA7AAAAAAAAAAAA);
+	background-image: url(//bits.wikimedia.org/static-1.22wmf22/extensions/VisualEditor/modules/ve-mw/init/styles/images/loading-ltr.gif?2013-10-17T16:28:20Z)!ie;
+}
+
+/*!
+ * VisualEditor MediaWiki Initialization ViewPageTarget Vector skin styles.
+ *
+ * @copyright 2011-2013 VisualEditor Team and others; see AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-init-mw-viewPageTarget-surface {
+	margin: 0.8em -1.5em 0 -1.5em;
+}
+
+.ve-init-mw-viewPageTarget-surface .ve-ce-documentNode {
+	font-size: 0.8em;
+	padding: 0 1.875em; /* 1.5/0.8 */
+}
+
+.ve-init-mw-viewPageTarget-surface .ve-ui-menuWidget {
+	font-size: 0.8em;
+}
+
+.ve-init-mw-viewPageTarget-toolbar {
+	margin: -1em;
+	-webkit-transition: margin 200ms ease-out;
+	-moz-transition: margin 200ms ease-out;
+	-o-transition: margin 200ms ease-out;
+	transition: margin 200ms ease-out;
+	position: relative;
+}
+
+.ve-init-mw-viewPageTarget-toolbar .ve-ui-toolbar-bar {
+	display: none;
+}
+
+.ve-ui-surface-overlay-global {
+	z-index: 101; /* #p-personal is z-index 100 in vector :( */
+}@media screen and (min-width: 982px) {
+	/*!
+	 * VisualEditor MediaWiki Initialization ViewPageTarget Vector skin high-definition styles.
+	 *
+	 * @copyright 2011-2013 VisualEditor Team and others; see AUTHORS.txt
+	 * @license The MIT License (MIT); see LICENSE.txt
+	 */
+	
+	.ve-init-mw-viewPageTarget-toolbar {
+		margin: -1.25em -1.5em 1.25em -1.5em;
+	}}/*!
+ * VisualEditor ContentEditable Node styles.
+ *
+ * @copyright 2011-2013 VisualEditor Team and others; see AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+/* ve.ce.DocumentNode */
+
+.ve-ce-documentNode {
+	cursor: text;
+	overflow: hidden;
+}
+
+/*
+ * Don't bother with -moz-selection becase Firefox 24 only
+ * supports overriding text selection colour, not images
+ * (i.e. any focusable nodes)
+ */
+.ve-ce-documentNode::selection,
+.ve-ce-documentNode *::selection {
+	background: rgba(109, 169, 247, 0.5); /* #6da9f7 */
+}
+
+/* Prevent focus outline on editor */
+.ve-ce-documentNode[contenteditable="true"]:focus {
+	outline: none;
+}
+
+/* ve.ce.ProtectedNode */
+
+.ve-ce-protectedNode,
+.ve-ce-protectedNode * {
+	position: relative !important;
+	top: 0 !important;
+	left: 0 !important;
+	bottom: 0 !important;
+	right: 0 !important;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.ve-ce-protectedNode::-moz-selection,
+.ve-ce-protectedNode *::-moz-selection {
+	background: transparent;
+}
+
+.ve-ce-protectedNode-shield {
+	position: absolute !important;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: transparent !important;
+	-webkit-user-select: auto;
+	-moz-user-select: element;
+	-ms-user-select: element;
+	user-select: element;
+}
+
+.ve-ce-protectedNode-phantom {
+	position: absolute;
+	background-color: rgba(104,171,255,0.1);
+	box-shadow: inset 0 0 0 1px #68abff;
+	cursor: default;
+}
+
+/* ve.ce.FocusableNode */
+
+.ve-ce-focusableNode-highlight {
+	background: #6da9f7;
+	position: absolute;
+}
+
+/* ve.ce.ResizableNode */
+
+.ve-ce-resizableNode-handles {
+	position: absolute;
+	box-shadow: inset 0 0 0 1px rgba(0,0,0,.25);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.ve-ce-resizableNode-handles div {
+	position: absolute;
+	width: 0.66em;
+	height: 0.66em;
+	border: solid 0.125em #fff;
+	background-color: #333;
+	box-shadow: 0 0.1em 0.2em rgba(0,0,0,0.75);
+	border-radius: 1em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.ve-ce-resizableNode-nwHandle {
+	cursor: nw-resize;
+	left: -0.33em;
+	top: -0.33em;
+}
+
+.ve-ce-resizableNode-neHandle {
+	cursor: ne-resize;
+	right: -0.33em;
+	top: -0.33em;
+}
+
+.ve-ce-resizableNode-swHandle {
+	cursor: sw-resize;
+	bottom: -0.33em;
+	left: -0.33em;
+}
+
+.ve-ce-resizableNode-seHandle {
+	cursor: se-resize;
+	bottom: -0.33em;
+	right: -0.33em;
+}
+
+.ve-ce-resizableNode-sizeLabel {
+	position: absolute;
+	text-align: center;
+	opacity: 0;
+	-webkit-transition: opacity 200ms;
+	-moz-transition: opacity 200ms;
+	-o-transition: opacity 200ms;
+	transition: opacity 200ms;
+}
+
+.ve-ce-resizableNode-sizeLabel-resizing {
+	opacity: 0.75;
+}
+
+.ve-ce-resizableNode-sizeText {
+	font-size: 0.8em;
+	padding: 0.25em 0.5em;
+	border: solid 1px #ccc;
+	background-color: white;
+	border-radius: 0.3em;
+	white-space: nowrap;
+}
+
+/* ve.ce.RelocatableNode */
+
+.ve-ce-relocatableNode-marker {
+	cursor: move;
+	position: absolute;
+}
+
+.ve-ce-relocatableNode-marker.relocating {
+	background: rgba(0,0,0,1);
+}
+
+/* ve.ce.GeneratedContentNode */
+
+.ve-ce-generatedContentNode-generating {
+	opacity: 0.5;
+}
+
+/* ve.ce.ImageNode */
+
+.ve-ce-imageNode {
+	cursor: default;
+}
+
+/* ve.ce.AlienNode */
+
+/* Fix weird Chrome native selection involving floated elements */
+.ve-ce-alienBlockNode:before,
+.ve-ce-alienBlockNode:after {
+	content: '';
+}
+
+.ve-ce-alienBlockNode {
+	display: block;
+}
+
+.ve-ce-alienInlineNode  {
+	display: inline;
+}
+
+.ve-ce-alienNode-phantom {
+	background-color: #C3E59A;
+	background-image: -ms-repeating-linear-gradient(-45deg, white 0px, white 5px, #C3E59A 5px, #C3E59A 10px );
+	background-image: -webkit-repeating-linear-gradient(-45deg, white 0px, white 5px, #C3E59A 5px, #C3E59A 10px );
+	background-image: -moz-repeating-linear-gradient(-45deg, white 0px, white 5px, #C3E59A 5px, #C3E59A 10px);
+	background-image: repeating-linear-gradient(-45deg, white 0px, white 5px, #C3E59A 5px, #C3E59A 10px );
+	background-size: 14px 14px;
+	box-shadow: none;
+	cursor: not-allowed;
+}
+
+/* ve.ce.BranchNode */
+
+.ve-ce-branchNode-blockSlug {
+	display: block;
+}
+
+/* ve.ce.PreformattedNode */
+
+pre.ve-ce-branchNode {
+	white-space: pre-wrap;
+}
+
+/* Hack for empty headings and paragraphs; can't use min-height because of IE */
+
+.ve-ce-branchNode h1:empty:before,
+.ve-ce-branchNode h2:empty:before,
+.ve-ce-branchNode h3:empty:before,
+.ve-ce-branchNode h4:empty:before,
+.ve-ce-branchNode h5:empty:before,
+.ve-ce-branchNode h6:empty:before,
+.ve-ce-branchNode p:empty:before {
+	content: url('data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7');
+}
+
+/* Emulate the first paragraph in each list item being unwrapped */
+
+/* TODO use CSS class for wrapper paragraph */
+li.ve-ce-branchNode p.ve-ce-branchNode:first-child {
+	margin: 0;
+	padding: 0;
+}
+
+/* Language Annotation */
+.ve-ce-LanguageAnnotation {
+	border-bottom: dashed #ccc 1px;
+	background-color: #ebf3f5;
+}
+
+/*!
+ * VisualEditor ContentEditable MediaWiki Node styles.
+ *
+ * @copyright 2011-2013 VisualEditor Team and others; see AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+/* ve.ce.MWTransclusionNode */
+
+.ve-ce-mwTransclusionInlineNode {
+	display: inline-block;
+}
+
+/* HACK: Hide Ref errors in templates */
+.ve-ce-mwTransclusionNode .mw-ext-cite-error {
+	display: none;
+}
+
+/* HACK: Fake superscript style for references generated as spans in templates */
+.ve-ce-mwTransclusionNode span.reference {
+	vertical-align: super;
+	font-size: smaller;
+}
+
+/* ve.ce.MWReferenceListNode */
+
+.ve-ce-mwReferenceListNode .ve-ce-generated-wrapper {
+	display: inline-block;
+}
+
+.ve-ce-mwReferenceListNode-muted {
+	font-style: italic;
+	color: #777;
+}
+
+/* ve-ce-mwReferenceNode */
+
+.ve-ce-mwReferenceNode-missingref {
+	cursor: not-allowed;
+}
+
+/* ve.ce.MWInlineImageNode */
+
+.ve-ce-mwInlineImageNode {
+	display: inline-block;
+}
+
+/* ve.ce.MWBlockImageNode */
+
+.ve-ce-mwBlockImageNode-inner {
+	display: inline-block;
+}
+
+/* ve.ce.MWAlienExtensionNode */
+
+.ve-ce-mwAlienExtensionNode {
+	display: inline-block;
+}
+
+/* ve.ce.MWMathNode */
+
+.ve-ce-mwMathNode {
+	display: inline-block;
+}
+
+/* ve.ce.MWHieroNode */
+
+.ve-ce-mwHieroNode {
+	display: table;
+}
+
+/*!
+ * VisualEditor ContentEditable Surface styles.
+ *
+ * @copyright 2011-2013 VisualEditor Team and others; see AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-ce-surface {
+	overflow: hidden;
+	font-size: 1em; /* to look more like MediaWiki use: 0.8em */;
+}
+
+.ve-ce-surface-textarea {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	color: white;
+	background-color: #fff;
+	border: none;
+	padding: 0;
+	margin: 0;
+	width: 1px;
+}
+
+.ve-ce-surface-textarea:focus {
+	outline: none;
+}
+
+.ve-ce-surface-cursor {
+	position: absolute;
+	background-color: #000;
+	width: 1px;
+	display: none;
+}
+
+/* @noflip */
+.ve-ce-surface-phantoms {
+	left: 0;
+	opacity: 0.75;
+	position: absolute;
+	top: 0;
+}
+
+/* @noflip */
+.ve-ce-surface-highlights {
+	left: 0;
+	opacity: 0.5;
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+}
+
+.ve-ce-surface-paste {
+	height: 1px;
+	left: 0;
+	opacity: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 1px;
+}
+
+.ve-ce-surface-paste * {
+	height: 1px !important;
+	width: 1px !important;
+}
+
+/* MediaWiki PHP Parser does not wrap text inside image captions in <p> but we do (cause we have to).
+ * Let's make those <p> looks like they are not there by proper CSS styling.
+ */
+/*csslint overqualified-elements:false */
+.ve-ce-surface .thumbcaption p.ve-ce-generated-wrapper {
+	display: inline;
+	padding: 0;
+	line-height: inherit;
+}
+
+.ve-ce-surface .thumbcaption .ve-ce-branchNode-slug {
+	display: none;
+}
+
+/*!
+ * VisualEditor UserInterface styles.
+ *
+ * @copyright 2011-2013 VisualEditor Team and others; see AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+/*csslint vendor-prefix:false */
+
+/* Textures */
+
+.ve-ui-texture-pending {
+	background-image: url(data:image/gif;base64,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);
+	background-image: url(//bits.wikimedia.org/static-1.22wmf22/extensions/VisualEditor/modules/ve/ui/styles/images/textures/pending.gif?2013-10-17T16:28:20Z)!ie;
+}
+
+.ve-ui-texture-transparency {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5OENCNTE2RkMxNDIxMUUyQTE0MUQ1NkJFQ0E4NzBFQyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5OENCNTE3MEMxNDIxMUUyQTE0MUQ1NkJFQ0E4NzBFQyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjk4Q0I1MTZEQzE0MjExRTJBMTQxRDU2QkVDQTg3MEVDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjk4Q0I1MTZFQzE0MjExRTJBMTQxRDU2QkVDQTg3MEVDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+7Y6b8gAAAAZQTFRF////zMzMOOqqgwAAABFJREFUCFtj/M/IiBUx/MeKAIFzEAliRS8YAAAAAElFTkSuQmCC);
+	background-image: url(//bits.wikimedia.org/static-1.22wmf22/extensions/VisualEditor/modules/ve/ui/styles/images/textures/transparency.png?2013-10-17T16:28:20Z)!ie;
+}
+
+/* Animation */
+
+@-webkit-keyframes ve-ui-zoom-in {
+	from { -webkit-transform: scale(0.5); }
+	to { -webkit-transform: scale(1); }
+}
+
+@-moz-keyframes ve-ui-zoom-in {
+	from { -moz-transform: scale(0.5); }
+	to { -moz-transform: scale(1); }
+}
+
+@-o-keyframes ve-ui-zoom-in {
+	from { -o-transform: scale(0.5); }
+	to { -o-transform: scale(1); }
+}
+
+@keyframes ve-ui-zoom-in {
+	from { transform: scale(0.5); }
+	to { transform: scale(1); }
+}
+
+@-webkit-keyframes ve-ui-fade-in {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@-moz-keyframes ve-ui-fade-in {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@-o-keyframes ve-ui-fade-in {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@keyframes ve-ui-fade-in {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+/* RTL Definitions */
+
+/* @noflip */
+.ve-ui-rtl {
+	direction: rtl;
+}
+/* @noflip */
+.ve-ui-ltr {
+	direction: ltr;
+}
+
+/*!
+ * VisualEditor Surface styles.
+ *
+ * @copyright 2011-2013 VisualEditor Team and others; see AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-ui-surface {
+	position: relative;
+}
+
+.ve-ui-surface:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.ve-ui-surface-overlay {
+	font-family: sans-serif;
+	line-height: 1.5em;
+	font-size: 1em;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+.ve-ui-surface-overlay-local {
+	z-index: 1;
+}
+
+/*!
+ * VisualEditor UserInterface Context styles.
+ *
+ * @copyright 2011-2013 VisualEditor Team and others; see AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-ui-context,
+.ve-ui-context-inspectors,
+.ve-ui-context-menu {
+	position: absolute;
+}
+
+.ve-ui-context-menu .ve-ui-toolbar-bar {
+	white-space: nowrap;
+	border: none;
+	background: none;
+}
+
+.ve-ui-context-menu .ve-ui-toolGroup {
+	border: none;
+	margin: 0;
+}
+
+.ve-ui-context-menu .ve-ui-buttonTool,
+.ve-ui-context-menu .ve-ui-buttonTool:hover {
+	border: none;
+}
+
+.ve-ui-context-menu .ve-ui-buttonTool:active,
+.ve-ui-context-menu .ve-ui-buttonTool-active {
+	background-image: none;
+}
+
+.ve-ui-context > .ve-ui-popupWidget:not(.ve-ui-popupWidget-tailed) .ve-ui-popupWidget-popup {
+	margin-top: 0.25em;
+}
+
+/* @noflip */
+.ltr .ve-ui-context > .ve-ui-popupWidget:not(.ve-ui-popupWidget-tailed) .ve-ui-popupWidget-popup {
+	margin-left: -0.5em;
+}
+
+/* @noflip */
+.rtl .ve-ui-context > .ve-ui-popupWidget:not(.ve-ui-popupWidget-tailed) .ve-ui-popupWidget-popup {
+	margin-left: 0.5em;
+}
+
+.ve-ui-context > .ve-ui-popupWidget:not(.ve-ui-popupWidget-tailed) .ve-ui-context-menu {
+	right: 0;
+}
+
+/* HACK: Compensate for ve-ui-frame-content setting the font size to 0.8em */
+.ve-ui-frame-content .ve-ui-context {
+	font-size: 1.25em;
+}
+
+/*!
+ * VisualEditor UserInterface Frame styles.
+ *
+ * @copyright 2011-2013 VisualEditor Team and others; see AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-ui-frame {
+	margin: 0;
+	padding: 0;
+}
+
+.ve-ui-frame-body {
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+
+.ve-ui-frame-content {
+	font-family: sans-serif;
+	font-size: 0.8em;
+}
+
+/*!
+ * VisualEditor UserInterface Window styles.
+ *
+ * @copyright 2011-2013 VisualEditor Team and others; see AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-ui-window {
+	display: none;
+}
+
+.ve-ui-window-head {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.ve-ui-window-body {
+	padding: 0 0.75em;
+}
+
+.ve-ui-window-icon {
+	float: left;
+	width: 2em;
+	height: 2em;
+	line-height: 2em;
+	margin-right: 0.5em;
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+
+.ve-ui-window-title {
+	float: left;
+	line-height: 2em;
+	color: #333;
+	white-space: nowrap;
+	cursor: default;
+}
+
+.ve-ui-window-overlay {
+	font-family: sans-serif;
+	line-height: 1.5em;
+	font-size: 1em;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/*!
+ * VisualEditor UserInterface Toolbar styles.
+ *
+ * @copyright 2011-2013 VisualEditor Team and others; see AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-ui-toolbar {
+	clear: both;
+}
+
+.ve-ui-toolbar-bar {
+	border-bottom: solid 1px #ccc;
+	background-color: white;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABYCAIAAAC79grhAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADJJREFUeNpi+P//PxMDA8OIxf9B9H9kPiI8/v9HVfMfLv4fLv4fKg7SB1EPoaHiAAEGAIVkHZL3JU3IAAAAAElFTkSuQmCC);
+	background-image: url(//bits.wikimedia.org/static-1.22wmf22/extensions/VisualEditor/modules/ve/ui/styles/images/fade-up.png?2013-10-17T16:28:20Z)!ie;
+	background-position: left bottom;
+	background-repeat: repeat-x;
+	padding-bottom: 1px;
+	line-height: 1em;
+}
+
+.ve-ui-toolbar-bottom .ve-ui-toolbar-bar {
+	position: absolute;
+}
+
+.ve-ui-toolbar-actions {
+	float: right;
+	padding: 0.25em;
+	font-size: 0.8em;
+}
+
+.ve-ui-toolbar-tools {
+	float: left;
+}
+
+.ve-ui-toolbar-tools,
+.ve-ui-toolbar-actions,
+.ve-ui-toolbar-shadow {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.ve-ui-toolbar-actions .ve-ui-popupWidget {
+	-webkit-touch-callout: default;
+	-webkit-user-select: all;
+	-moz-user-select: all;
+	-ms-user-select: all;
+	user-select: all;
+}
+
+.ve-ui-toolbar-shadow {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAJBAMAAAABaFvXAAAAG1BMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAD////r6+tLEaYHAAAACHRSTlMkGhAMCAUCAD4ampEAAAAPSURBVAgdY2lgaWARQIYAFIoBlZH81ioAAAAASUVORK5CYII=);
+	background-image: url(//bits.wikimedia.org/static-1.22wmf22/extensions/VisualEditor/modules/ve/ui/styles/images/toolbar-shadow.png?2013-10-17T16:28:20Z)!ie;
+	background-position: left top;
+	background-repeat: repeat-x;
+	position: absolute;
+	bottom: -9px;
+	height: 9px;
+	width: 100%;
+	pointer-events: none;
+	-webkit-transition: opacity 500ms ease-in-out;
+	-moz-transition: opacity 500ms ease-in-out;
+	-o-transition: opacity 500ms ease-in-out;
+	transition: opacity 500ms ease-in-out;
+	opacity: 0.125;
+}
+
+/*!
+ * VisualEditor UserInterface ToolGroup styles.
+ *
+ * @copyright 2011-2013 VisualEditor Team and others; see AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+/* ve.ui.ToolGroup */
+
+.ve-ui-toolGroup {
+	display: inline-block;
+	margin: 0.3em;
+	vertical-align: middle;
+	border-radius: 0.25em;
+	border: solid 1px transparent;
+	-webkit-transition: border-color 300ms;
+	-moz-transition: border-color 300ms;
+	-o-transition: border-color 300ms;
+	transition: border-color 300ms;
+}
+
+.ve-ui-toolGroup:hover {
+	border-color: rgba(0,0,0,0.1);
+}
+
+.ve-ui-toolGroup-empty {
+	display: none;
+}
+
+.ve-ui-toolGroup .ve-ui-tool .ve-ui-labeledElement-label {
+	color: #000;
+}
+
+.ve-ui-toolGroup .ve-ui-tool .ve-ui-iconedElement-icon {
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+/* ve.ui.BarToolGroup */
+
+.ve-ui-barToolGroup > .ve-ui-iconedElement-icon,
+.ve-ui-barToolGroup > .ve-ui-iconedElement-label {
+	display: none;
+}
+
+.ve-ui-barToolGroup .ve-ui-tool {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	height: 1.5em;
+	padding: 0.25em;
+	margin: -1px 0 -1px -1px;
+	border: solid 1px transparent;
+	cursor: pointer;
+}
+
+.ve-ui-barToolGroup
+	.ve-ui-tool-active:not(.ve-ui-widget-disabled) +
+	.ve-ui-tool-active:not(.ve-ui-widget-disabled)
+{
+	border-left-color: rgba(0,0,0,0.1);
+}
+
+.ve-ui-barToolGroup .ve-ui-tool:first-child {
+	border-top-left-radius: 0.25em;
+	border-bottom-left-radius: 0.25em;
+}
+
+.ve-ui-barToolGroup .ve-ui-tool:last-child {
+	margin-right: -1px;
+	border-top-right-radius: 0.25em;
+	border-bottom-right-radius: 0.25em;
+}
+
+.ve-ui-barToolGroup .ve-ui-tool:hover:not(.ve-ui-widget-disabled) {
+	border-color: rgba(0,0,0,0.2);
+}
+
+.ve-ui-barToolGroup .ve-ui-tool-active:not(.ve-ui-widget-disabled) {
+	border-color: rgba(0,0,0,0.2);
+}
+
+.ve-ui-barToolGroup .ve-ui-tool .ve-ui-iconedElement-icon {
+	display: block;
+	height: 1.5em;
+	width: 1.5em;
+	opacity: 0.8;
+}
+
+.ve-ui-barToolGroup .ve-ui-tool .ve-ui-labeledElement-label {
+	display: none;
+}
+
+.ve-ui-barToolGroup .ve-ui-tool.ve-ui-widget-disabled {
+	cursor: default;
+}
+
+.ve-ui-barToolGroup .ve-ui-tool.ve-ui-widget-disabled .ve-ui-iconedElement-icon {
+	opacity: 0.2;
+}
+
+.ve-ui-barToolGroup .ve-ui-tool:not(.ve-ui-widget-disabled) .ve-ui-iconedElement-icon {
+	opacity: 0.8;
+}
+
+.ve-ui-barToolGroup .ve-ui-tool:hover:not(.ve-ui-widget-disabled) .ve-ui-iconedElement-icon {
+	opacity: 1;
+}
+
+/* ve.ui.PopupToolGroup */
+
+.ve-ui-popupToolGroup {
+	position: relative;
+	height: 2em;
+	min-width: 2em;
+}
+
+.ve-ui-popupToolGroup-handle {
+	display: block;
+	cursor: pointer;
+}
+
+.ve-ui-popupToolGroup-handle .ve-ui-iconedElement-icon {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 2em;
+	width: 2em;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 0.8;
+}
+
+.ve-ui-popupToolGroup-handle .ve-ui-labeledElement-label {
+	line-height: 2.6em;
+	font-size: 0.8em;
+	margin: 0 2.25em 0 1em;
+}
+
+.ve-ui-popupToolGroup-handle .ve-ui-labeledElement-empty {
+	display: none;
+}
+
+.ve-ui-popupToolGroup .ve-ui-toolGroup-tools {
+	display: none;
+	position: absolute;
+	top: 2em;
+	left: -1px;
+	z-index: 4;
+	border: solid 1px #ccc;
+	background-color: white;
+	box-shadow: 0 0.25em 1em rgba(0,0,0,0.25);
+}
+
+.ve-ui-popupToolGroup .ve-ui-toolGroup-tools .ve-ui-iconedElement-icon {
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.ve-ui-popupToolGroup-active:not(.ve-ui-widget-disabled) > .ve-ui-toolGroup-tools {
+	display: block;
+}
+
+.ve-ui-popupToolGroup-active:not(.ve-ui-widget-disabled) {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.ve-ui-popupToolGroup .ve-ui-tool .ve-ui-iconedElement-icon {
+	display: inline-block;
+	vertical-align: middle;
+	height: 2em;
+	width: 2em;
+	margin-right: 0.5em;
+}
+
+.ve-ui-popupToolGroup .ve-ui-tool .ve-ui-labeledElement-label {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 2em;
+	font-size: 0.8em;
+}
+
+/* ve.ui.ListToolGroup */
+
+.ve-ui-listToolGroup .ve-ui-toolGroup-tools {
+	padding: 0.5em;
+}
+
+.ve-ui-listToolGroup .ve-ui-tool {
+	display: block;
+	cursor: pointer;
+	white-space: nowrap;
+	border: solid 1px transparent;
+	margin: -1px 0 -1px -1px;
+	padding-right: 0.5em;
+}
+
+.ve-ui-listToolGroup.ve-ui-popupToolGroup-active {
+	border-color: rgba(0,0,0,0.2);
+}
+
+.ve-ui-listToolGroup
+	.ve-ui-tool-active:not(.ve-ui-widget-disabled) +
+	.ve-ui-tool-active:not(.ve-ui-widget-disabled)
+{
+	border-top-color: rgba(0,0,0,0.1);
+}
+
+.ve-ui-listToolGroup .ve-ui-tool:hover:not(.ve-ui-widget-disabled) {
+	border-color: rgba(0,0,0,0.2);
+}
+
+.ve-ui-listToolGroup .ve-ui-tool-active:not(.ve-ui-widget-disabled) {
+	border-color: rgba(0,0,0,0.2);
+}
+
+.ve-ui-listToolGroup .ve-ui-tool.ve-ui-widget-disabled {
+	cursor: default;
+}
+
+.ve-ui-listToolGroup .ve-ui-tool.ve-ui-widget-disabled .ve-ui-iconedElement-icon {
+	opacity: 0.2;
+}
+
+.ve-ui-listToolGroup .ve-ui-tool:not(.ve-ui-widget-disabled) .ve-ui-iconedElement-icon {
+	opacity: 0.8;
+}
+
+.ve-ui-listToolGroup .ve-ui-tool:hover:not(.ve-ui-widget-disabled) .ve-ui-iconedElement-icon {
+	opacity: 1;
+}
+
+/* ve.ui.MenuToolGroup */
+
+.ve-ui-menuToolGroup {
+	border-color: rgba(0,0,0,0.1);
+}
+
+.ve-ui-menuToolGroup:hover {
+	border-color: rgba(0,0,0,0.2);
+}
+
+.ve-ui-menuToolGroup.ve-ui-popupToolGroup-active {
+	border-color: rgba(0,0,0,0.25);
+}
+
+.ve-ui-menuToolGroup .ve-ui-popupToolGroup-handle {
+	min-width: 8em;
+}
+
+.ve-ui-menuToolGroup .ve-ui-tool {
+	display: block;
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 0.25em 1em 0.25em 0.25em;
+}
+
+.ve-ui-menuToolGroup .ve-ui-tool .ve-ui-iconedElement-icon {
+	background-image: none;
+}
+
+.ve-ui-menuToolGroup .ve-ui-tool-active .ve-ui-iconedElement-icon {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAH5JREFUeNpiYKABsAHizVCagYmAYh4gLofS8cRogCkGgU5CGkJgzgCCqUB8B58GCZgTgOACEK9BV6ACxMuhNAj0A/F+qGd5kBUyQunlUFO/APERIPaAitdC+XDADKUvArET1DSYLTugBuEEKlAn7Icq5CEmkmCaVKgW7QABBgChRBQIAPzOSgAAAABJRU5ErkJggg==);
+	background-image: url(//bits.wikimedia.org/static-1.22wmf22/extensions/VisualEditor/modules/ve/ui/styles/images/icons/check.png?2013-10-17T16:28:20Z)!ie;
+}
+
+.ve-ui-menuToolGroup .ve-ui-tool:hover {
+	background-color: #e1f3ff;
+}
+
+/* Common */
+
+.ve-ui-barToolGroup .ve-ui-tool-active:not(.ve-ui-widget-disabled),
+.ve-ui-listToolGroup .ve-ui-tool-active:not(.ve-ui-widget-disabled),
+.ve-ui-popupToolGroup-active:not(.ve-ui-widget-disabled) {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABYCAIAAAC79grhAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAD5JREFUeNrkw4kJwCAQBMDtv1tN/O7ZU4NgERkYpKbI69MV79gNRQxVHG3t6hinGL+6O2Gn8ybjjkD8+xRgAIe/Bf/08wNVAAAAAElFTkSuQmCC);
+	background-image: url(//bits.wikimedia.org/static-1.22wmf22/extensions/VisualEditor/modules/ve/ui/styles/images/fade-down.png?2013-10-17T16:28:20Z)!ie;
+	background-position: left top;
+	background-repeat: repeat-x;
+	box-shadow: inset 0 0.07em 0.07em 0 rgba(0, 0, 0, 0.07);
+}
+
+/* ve.ui.FormatTool */
+
+.ve-ui-menuToolGroup .ve-ui-tool-paragraph .ve-ui-labeledElement-label {
+	font-weight: normal;
+}
+
+.ve-ui-menuToolGroup .ve-ui-tool-heading1 .ve-ui-labeledElement-label {
+	font-size: 150%;
+	font-weight: normal;
+}
+
+.ve-ui-menuToolGroup .ve-ui-tool-heading2 .ve-ui-labeledElement-label {
+	font-size: 120%;
+	font-weight: normal;
+}
+
+.ve-ui-menuToolGroup .ve-ui-tool-heading3 .ve-ui-labeledElement-label {
+	font-size: 105%;
+	font-weight: bold;
+}
+
+.ve-ui-menuToolGroup .ve-ui-tool-heading4 .ve-ui-labeledElement-label {
+	font-size: 92%;
+	font-weight: bold;
+}
+
+.ve-ui-menuToolGroup .ve-ui-tool-heading5 .ve-ui-labeledElement-label {
+	font-size: 80%;
+	font-weight: bold;
+}
+
+.ve-ui-menuToolGroup .ve-ui-tool-heading6 .ve-ui-labeledElement-label {
+	font-size: 64%;
+	font-weight: bold;
+}
+
+.ve-ui-menuToolGroup .ve-ui-tool-preformatted .ve-ui-labeledElement-label {
+	font-family: monospace, "Courier New";
+}
+
+/*!
+ * VisualEditor SurfaceToolbar styles.
+ *
+ * @copyright 2011-2013 VisualEditor Team and others; see AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-ui-surfaceToolbar-floating .oo-ui-toolbar-bar {
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	border-top: none; /* TODO: Do we need this? What does it reset? */
+}
+
+.ve-ui-surfaceToolbar-floating .oo-ui-toolbar-shadow {
+	opacity: 0.5;
+}
+
+/*!
+ * VisualEditor UserInterface Element styles.
+ *
+ * @copyright 2011-2013 VisualEditor Team and others; see AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+/* ve.ui.LabeledElement */
+
+.ve-ui-labeledElement-label {
+	display: block;
+}
+
+.ve-ui-clippableElement-clippable {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*!
+ * VisualEditor UserInterface Layout styles.
+ *
+ * @copyright 2011-2013 VisualEditor Team and others; see AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+/* ve.ui.GridLayout */
+/* ve.ui.PanelLayout */
+
+.ve-ui-gridLayout,
+.ve-ui-panelLayout {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.ve-ui-panelLayout-scrollable {
+	overflow-y: auto;
+}
+
+.ve-ui-panelLayout-padded {
+	padding: 2em;
+}
+
+/* ve.ui.FieldsetLayout */
+
+.ve-ui-fieldsetLayout {
+	border: none;
+	margin: 0 0 1.75em 0;
+	padding: 0;
+}
+
+.ve-ui-fieldsetLayout-labeled {
+	margin-top: -0.75em;
+}
+
+.ve-ui-fieldsetLayout > legend.ve-ui-labeledElement-label {
+	font-size: 1.5em;
+	margin-bottom: 0.5em;
+}
+
+.ve-ui-fieldsetLayout-decorated > legend.ve-ui-labeledElement-label {
+	padding-left: 1.75em;
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+/*!
+ * VisualEditor UserInterface Widget styles.
+ *
+ * @copyright 2011-2013 VisualEditor Team and others; see AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+/* ve.ui.ButtonWidget */
+
+.ve-ui-buttonWidget {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+a.ve-ui-buttonWidget-button {
+	color: #333;
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/* ve.ui.IconButtonWidget */
+
+.ve-ui-iconButtonWidget {
+	display: inline-block;
+	position: relative;
+	-webkit-transition: opacity 200ms;
+	-moz-transition: opacity 200ms;
+	-o-transition: opacity 200ms;
+	transition: opacity 200ms;
+}
+
+.ve-ui-iconButtonWidget .ve-ui-buttonWidget-button > .ve-ui-iconedElement-icon {
+	opacity: 0.8;
+	display: inline-block;
+	vertical-align: middle;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 2em;
+	height: 2em;
+}
+
+.ve-ui-iconButtonWidget .ve-ui-buttonWidget-button:hover > .ve-ui-iconedElement-icon,
+.ve-ui-iconButtonWidget .ve-ui-buttonWidget-button:focus > .ve-ui-iconedElement-icon {
+	opacity: 1;
+}
+
+.ve-ui-iconButtonWidget.ve-ui-widget-disabled .ve-ui-buttonWidget-button > .ve-ui-iconedElement-icon {
+	opacity: 0.2;
+}
+
+.ve-ui-iconButtonWidget .ve-ui-buttonWidget-button > .ve-ui-labeledElement-label {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 0.25em;
+	color: #333;
+}
+
+.ve-ui-iconButtonWidget .ve-ui-buttonWidget-button:hover > .ve-ui-labeledElement-label,
+.ve-ui-iconButtonWidget .ve-ui-buttonWidget-button:focus > .ve-ui-labeledElement-label {
+	color: #000;
+}
+
+.ve-ui-iconButtonWidget.ve-ui-widget-disabled .ve-ui-buttonWidget-button > .ve-ui-labeledElement-label {
+	color: #ccc;
+}
+
+.ve-ui-iconButtonWidget .ve-ui-buttonWidget-button > .ve-ui-labeledElement-empty {
+	display: none;
+}
+
+/* ve.ui.PopupButtonWidget */
+
+.ve-ui-popupButtonWidget {
+	position: relative;
+}
+
+.ve-ui-popupButtonWidget .ve-ui-popupWidget {
+	position: absolute;
+	left: 1em;
+	cursor: auto;
+}
+
+/* ve.ui.PushButtonWidget */
+
+.ve-ui-pushButtonWidget .ve-ui-buttonWidget-button {
+	display: inline-block;
+	font-size: 1em;
+	margin: 0.1em 0;
+	padding: 0.2em 0.8em;
+	border-radius: 0.3em;
+	vertical-align: top;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+	box-shadow: 0 0.1em 0.25em rgba(0, 0, 0, 0.1);
+	text-align: center;
+
+	/* Animation */
+	-webkit-transition: border-color 100ms;
+	-moz-transition: border-color 100ms;
+	-o-transition: border-color 100ms;
+	transition: border-color 100ms;
+
+	/* Gray */
+	border: 1px #c9c9c9 solid;
+	background-color: #ffffff;
+	filter: progid:DXImageTransform.Microsoft.gradient(
+		GradientType=0,startColorstr=#ffffff, endColorstr=#f0f0f0
+	);
+	background-image: -webkit-gradient(
+		linear, right top, right bottom, color-stop(0%,#ffffff), color-stop(100%,#f0f0f0)
+	);
+	background-image: -webkit-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+	background-image: -moz-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+	background-image: -ms-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+	background-image: -o-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+	background-image: linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+}
+
+.ve-ui-pushButtonWidget .ve-ui-buttonWidget-button:hover,
+.ve-ui-pushButtonWidget .ve-ui-buttonWidget-button:focus {
+	border-color: #aaa;
+}
+
+.ve-ui-pushButtonWidget .ve-ui-buttonWidget-button:active {
+	border-color: #ddd;
+	box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, 0.07);
+	color: black;
+}
+
+.ve-ui-pushButtonWidget.ve-ui-widget-disabled .ve-ui-buttonWidget-button,
+.ve-ui-pushButtonWidget.ve-ui-widget-disabled .ve-ui-buttonWidget-button:active {
+	opacity: 0.5;
+	cursor: default;
+	box-shadow: none;
+	color: #333;
+}
+
+.ve-ui-pushButtonWidget.ve-ui-widget-disabled .ve-ui-buttonWidget-button:hover,
+.ve-ui-pushButtonWidget.ve-ui-widget-disabled .ve-ui-buttonWidget-button:focus {
+	border-color: #ccc;
+	box-shadow: none;
+}
+
+.ve-ui-pushButtonWidget .ve-ui-buttonWidget-button > .ve-ui-labeledElement-label {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1.9em;
+}
+
+.ve-ui-pushButtonWidget.ve-ui-flaggableElement-destructive .ve-ui-buttonWidget-button {
+	/* Red text */
+	color: #d45353;
+}
+
+.ve-ui-pushButtonWidget.ve-ui-flaggableElement-constructive .ve-ui-buttonWidget-button {
+	/* Green */
+	border: solid 1px #c3e59a;
+	background-color: #f0fbe1;
+	filter: progid:DXImageTransform.Microsoft.gradient(
+		GradientType=0,startColorstr=#f0fbe1, endColorstr=#c3e59a
+	);
+	background-image: -webkit-gradient(
+		linear, right top, right bottom, color-stop(0%,#f0fbe1), color-stop(100%,#c3e59a)
+	);
+	background-image: -webkit-linear-gradient(top, #f0fbe1 0%, #c3e59a 100%);
+	background-image: -moz-linear-gradient(top, #f0fbe1 0%, #c3e59a 100%);
+	background-image: -ms-linear-gradient(top, #f0fbe1 0%, #c3e59a 100%);
+	background-image: -o-linear-gradient(top, #f0fbe1 0%, #c3e59a 100%);
+	background-image: linear-gradient(top, #f0fbe1 0%, #c3e59a 100%);
+}
+
+.ve-ui-pushButtonWidget.ve-ui-flaggableElement-constructive .ve-ui-buttonWidget-button:hover,
+.ve-ui-pushButtonWidget.ve-ui-flaggableElement-constructive .ve-ui-buttonWidget-button:focus {
+	border-color: #a6cf74;
+}
+
+.ve-ui-pushButtonWidget.ve-ui-flaggableElement-primary .ve-ui-buttonWidget-button {
+	/* Blue */
+	border: solid 1px #b0d9ee;
+	background-color: #eaf4fa;
+	filter: progid:DXImageTransform.Microsoft.gradient(
+		GradientType=0,startColorstr=#eaf4fa, endColorstr=#b0d9ee
+	);
+	background-image: -webkit-gradient(
+		linear, right top, right bottom, color-stop(0%,#eaf4fa), color-stop(100%,#b0d9ee)
+	);
+	background-image: -webkit-linear-gradient(top, #eaf4fa 0%, #b0d9ee 100%);
+	background-image: -moz-linear-gradient(top, #eaf4fa 0%, #b0d9ee 100%);
+	background-image: -ms-linear-gradient(top, #eaf4fa 0%, #b0d9ee 100%);
+	background-image: -o-linear-gradient(top, #eaf4fa 0%, #b0d9ee 100%);
+	background-image: linear-gradient(top, #eaf4fa 0%, #b0d9ee 100%);
+}
+
+.ve-ui-pushButtonWidget.ve-ui-flaggableElement-primary .ve-ui-buttonWidget-button:hover,
+.ve-ui-pushButtonWidget.ve-ui-flaggableElement-primary .ve-ui-buttonWidget-button:focus {
+	border-color: #84b9d4;
+}
+
+/* ve.ui.SelectWidget */
+
+.ve-ui-selectWidget {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* ve.ui.OptionWidget */
+
+.ve-ui-optionWidget {
+	position: relative;
+	display: block;
+	border: none;
+	list-style: none;
+	margin: 0;
+	padding: 0.5em 2em 0.5em 3em;
+	cursor: pointer;
+}
+
+.ve-ui-optionWidget .ve-ui-labeledElement-label {
+	line-height: 1.5em;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.ve-ui-optionWidget-highlighted {
+	background-color: #e1f3ff;
+}
+
+.ve-ui-optionWidget-selected {
+	background-color: #a7dcff;
+}
+
+.ve-ui-optionWidget.ve-ui-widget-disabled {
+	cursor: default;
+}
+
+.ve-ui-optionWidget .ve-ui-optionWidget-icon {
+	position: absolute;
+	top: 50%;
+	left: 0.5em;
+	width: 2em;
+	height: 2em;
+	margin-top: -1em;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/* ve.ui.OutlineItemWidget */
+
+.ve-ui-outlineItemWidget {
+	position: relative;
+	padding: 0.75em 0.75em 0.75em 3.5em;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: pointer;
+	font-size: 1.1em;
+}
+
+.ve-ui-outlineItemWidget-level-1 {
+	padding-left: 5em;
+}
+
+.ve-ui-outlineItemWidget-level-2 {
+	padding-left: 6.5em;
+}
+
+.ve-ui-outlineItemWidget.ve-ui-optionWidget-selected {
+	background-color: #a7dcff;
+	text-shadow: 0 1px 1px rgba(255,255,255,0.5);
+}
+
+.ve-ui-outlineItemWidget-level-0 .ve-ui-optionWidget-icon {
+	left: 1em;
+}
+
+.ve-ui-outlineItemWidget-level-1 .ve-ui-optionWidget-icon {
+	left: 2.5em;
+}
+
+.ve-ui-outlineItemWidget-level-2 .ve-ui-optionWidget-icon {
+	left: 4em;
+}
+
+/* ve.ui.OutlineControlsWidget */
+
+.ve-ui-outlineControlsWidget {
+	height: 3em;
+	background-color: #fff;
+}
+
+.ve-ui-outlineControlsWidget-adders,
+.ve-ui-outlineControlsWidget-movers {
+	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 3em;
+	padding: 0.5em;
+}
+
+.ve-ui-outlineControlsWidget-adders {
+	float: left;
+}
+.ve-ui-outlineControlsWidget-movers {
+	float: right;
+}
+
+.ve-ui-outlineControlsWidget-adders .ve-ui-iconButtonWidget {
+	float: left;
+}
+
+.ve-ui-outlineControlsWidget-movers .ve-ui-iconButtonWidget {
+	float: right;
+}
+
+.ve-ui-outlineControlsWidget-adders:not(:hover) .ve-ui-iconButtonWidget:not(:first-child) {
+	opacity: 0;
+}
+
+.ve-ui-outlineControlsWidget-adders:hover .ve-ui-iconButtonWidget:first-child {
+	opacity: 0.25;
+	cursor: default;
+}
+
+/* ve.ui.InputLabelWidget */
+
+.ve-ui-inputLabelWidget {
+	padding: 0.5em 0;
+}
+
+/* ve.ui.TextInputWidget */
+
+.ve-ui-textInputWidget {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 20em;
+	position: relative;
+}
+
+.ve-ui-textInputWidget input,
+.ve-ui-textInputWidget input:focus[readonly],
+.ve-ui-widget-disabled.ve-ui-textInputWidget input:focus,
+.ve-ui-textInputWidget textarea,
+.ve-ui-textInputWidget textarea:focus[readonly],
+.ve-ui-widget-disabled.ve-ui-textInputWidget textarea:focus {
+	display: inline-block;
+	font-size: 1em;
+	font-family: sans-serif;
+	background-color: #f7f7f7;
+	border: solid 1px #ccc;
+	box-shadow: 0 0 0 white, inset 0 0.1em 0.2em #ddd;
+	padding: 0.5em;
+	border-radius: 0.25em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	resize: none;
+
+	/* Animation */
+	-webkit-transition: border-color 200ms, box-shadow 200ms, background-color 200ms;
+	-moz-transition: border-color 200ms, box-shadow 200ms, background-color 200ms;
+	-o-transition: border-color 200ms, box-shadow 200ms, background-color 200ms;
+	transition: border-color 200ms, box-shadow 200ms, background-color 200ms;
+}
+
+.ve-ui-textInputWidget-pending input,
+.ve-ui-textInputWidget-pending textarea {
+	background-color: transparent;
+}
+
+.ve-ui-textInputWidget input:focus,
+.ve-ui-textInputWidget textarea:focus {
+	outline: none;
+	border-color: #a7dcff;
+	box-shadow: 0 0 0.3em #a7dcff, 0 0 0 white;
+	background-color: #fff;
+}
+
+.ve-ui-textInputWidget input[readonly],
+.ve-ui-textInputWidget textarea[readonly] {
+	color: #777;
+	text-shadow: 0 1px 1px #fff;
+}
+
+.ve-ui-widget-disabled.ve-ui-textInputWidget input,
+.ve-ui-widget-disabled.ve-ui-textInputWidget input:focus,
+.ve-ui-widget-disabled.ve-ui-textInputWidget textarea,
+.ve-ui-widget-disabled.ve-ui-textInputWidget textarea:focus {
+	color: #ccc;
+	text-shadow: 0 1px 1px #fff;
+}
+
+.ve-ui-textInputWidget-decorated input,
+.ve-ui-textInputWidget-decorated textarea {
+	padding-left: 2em;
+}
+
+.ve-ui-textInputWidget-icon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 2em;
+	height: 100%;
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+
+/* ve.ui.LanguageInputWidget */
+
+.ve-ui-langInputWidget {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 20em;
+	position: relative;
+}
+
+.ve-ui-langInputWidget input,
+.ve-ui-langInputWidget input:focus[readonly],
+.ve-ui-widget-disabled.ve-ui-langInputWidget input:focus,
+.ve-ui-langInputWidget textarea,
+.ve-ui-langInputWidget textarea:focus[readonly],
+.ve-ui-widget-disabled.ve-ui-langInputWidget textarea:focus {
+	display: inline-block;
+	font-size: 1em;
+	font-family: sans-serif;
+	background-color: #f7f7f7;
+	border: solid 1px #ccc;
+	box-shadow: 0 0 0 white, inset 0 0.1em 0.2em #ddd;
+	padding: 0.5em;
+	border-radius: 0.25em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	resize: none;
+
+	/* Animation */
+	-webkit-transition: border-color 200ms, box-shadow 200ms, background-color 200ms;
+	-moz-transition: border-color 200ms, box-shadow 200ms, background-color 200ms;
+	-o-transition: border-color 200ms, box-shadow 200ms, background-color 200ms;
+	transition: border-color 200ms, box-shadow 200ms, background-color 200ms;
+}
+
+.ve-ui-langInputWidget-pending input,
+.ve-ui-langInputWidget-pending textarea {
+	background-color: transparent;
+}
+
+.ve-ui-langInputWidget input:focus,
+.ve-ui-langInputWidget textarea:focus {
+	outline: none;
+	border-color: #a7dcff;
+	box-shadow: 0 0 0.3em #a7dcff, 0 0 0 white;
+	background-color: #fff;
+}
+
+.ve-ui-langInputWidget input[readonly],
+.ve-ui-langInputWidget textarea[readonly] {
+	color: #777;
+	text-shadow: 0 1px 1px #fff;
+}
+
+.ve-ui-widget-disabled.ve-ui-langInputWidget input,
+.ve-ui-widget-disabled.ve-ui-langInputWidget input:focus,
+.ve-ui-widget-disabled.ve-ui-langInputWidget textarea,
+.ve-ui-widget-disabled.ve-ui-langInputWidget textarea:focus {
+	color: #ccc;
+	text-shadow: 0 1px 1px #fff;
+}
+
+.ve-ui-langInputWidget-decorated input,
+.ve-ui-langInputWidget-decorated textarea {
+	padding-left: 2em;
+}
+
+.ve-ui-langInputWidget-icon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 2em;
+	height: 100%;
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+
+/* ve.ui.MenuWidget */
+
+.ve-ui-menuWidget {
+	position: absolute;
+	background: #fff;
+	margin-top: -1px;
+	border: solid 1px #ccc;
+	border-radius: 0 0 0.25em 0.25em;
+	box-shadow: 0 0.15em 1em 0 rgba(0, 0, 0, 0.2);
+}
+
+.ve-ui-menuWidget input {
+	position: absolute;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	opacity: 0;
+}
+
+/* ve.ui.MenuItemWidget */
+
+.ve-ui-menuItemWidget {
+	position: relative;
+}
+
+.ve-ui-menuItemWidget .ve-ui-optionWidget-icon {
+	display: none;
+}
+
+.ve-ui-menuItemWidget.ve-ui-optionWidget-selected .ve-ui-optionWidget-icon {
+	display: block;
+}
+
+.ve-ui-menuItemWidget.ve-ui-optionWidget-selected {
+	background-color: transparent;
+}
+
+.ve-ui-menuItemWidget.ve-ui-optionWidget-highlighted {
+	background-color: #e1f3ff;
+}
+
+/* ve.ui.MenuSectionItemWidget */
+
+.ve-ui-menuSectionItemWidget {
+	padding: 0.33em 0.75em;
+	color: #888;
+	cursor: default;
+}
+
+/* ve.ui.PopupWidget */
+
+.ve-ui-popupWidget-popup {
+	position: absolute;
+	overflow: hidden;
+	border: solid 1px #ccc;
+	border-radius: 0.25em;
+	background-color: #fff;
+	box-shadow: 0 0.15em 0.5em 0 rgba(0, 0, 0, 0.2);
+}
+
+.ve-ui-popupWidget-tail {
+	display: none;
+}
+
+.ve-ui-popupWidget-tailed .ve-ui-popupWidget-popup {
+	margin-top: 7px;
+}
+
+.ve-ui-popupWidget-tailed .ve-ui-popupWidget-tail {
+	display: block;
+	position: absolute;
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHdpZHRoPSIxNXB4IiBoZWlnaHQ9IjhweCIgdmlld0JveD0iMCAwIDE1IDgiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE1IDg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGcgaWQ9InRhaWwiPgoJPHBvbHlnb24gaWQ9Im91dGxpbmUiIHN0eWxlPSJmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtmaWxsOiM4MDgwODA7IiBwb2ludHM9IjcuNjA5LDIuNDk5IDIuMDk2LDggMTMuMTI1LDgiLz4KCTxwb2x5Z29uIGlkPSJmaWxsIiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7ZmlsbDojRkZGRkZGOyIgcG9pbnRzPSI3LjYwOSwzIDIuNTk4LDggMTIuNjIyLDgiLz4KPC9nPgo8L3N2Zz4K);
+	background-image: url(//bits.wikimedia.org/static-1.22wmf22/extensions/VisualEditor/modules/ve/ui/styles/images/tail.svg?2013-10-17T16:28:20Z)!ie;
+	background-repeat: no-repeat;
+	width: 15px;
+	height: 8px;
+	margin-left: -7px;
+}
+
+.ve-ui-popupWidget-transitioning .ve-ui-popupWidget-popup {
+	-webkit-transition: width 100ms, height 100ms, left 100ms;
+	-moz-transition: width 100ms, height 100ms, left 100ms;
+	-o-transition: width 100ms, height 100ms, left 100ms;
+	transition: width 100ms, height 100ms, left 100ms;
+	-webkit-transition-timing-function: ease-in-out;
+	-moz-transition-timing-function: ease-in-out;
+	-o-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
+}
+
+.ve-ui-popupWidget-head {
+	height: 2.5em;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.ve-ui-popupWidget-head .ve-ui-iconButtonWidget {
+	float: right;
+	margin: 0.25em;
+}
+
+.ve-ui-popupWidget-head .ve-ui-labeledElement-label {
+	float: left;
+	margin: 0.75em 1em;
+	cursor: default;
+}
+
+.ve-ui-popupWidget-body {
+	box-shadow: 0 0 0.66em rgba(0,0,0,0.25);
+}
+
+/* ve.ui.SearchWidget */
+
+.ve-ui-searchWidget-query {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 4em;
+	padding: 0 1em;
+	box-shadow: 0 0 0.5em rgba(0,0,0,0.2);
+}
+
+.ve-ui-searchWidget-query .ve-ui-textInputWidget {
+	width: 100%;
+	margin: 0.75em 0;
+}
+
+.ve-ui-searchWidget-results {
+	position: absolute;
+	top: 4em;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 1em;
+	overflow-x: hidden;
+	overflow-y: auto;
+	line-height: 0;
+}
+
+/* ve.ui.SurfaceWidget.js */
+
+.ve-ui-surfaceWidget-toolbar {
+	font-size: 1.25em;
+}
+
+.ve-ui-surfaceWidget-toolbar .ve-ui-toolbar-bar {
+	border: solid 1px #ddd;
+	border-radius: 0.25em;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-width: 0;
+}
+
+/*!
+ * VisualEditor MediaWiki UserInterface Widget styles.
+ *
+ * @copyright 2011-2013 VisualEditor Team and others; see AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+/* ve.ui.MWLinkTargetInputWidget */
+
+.ve-ui-mwLinkTargetInputWidget-menu {
+	width: 20em;
+	margin-top: -7px;
+}
+
+.ve-ui-mwLinkTargetInputWidget-menu .ve-ui-menuWidget-item {
+	padding: 0.33em 1.25em;
+	color: #0645AD;
+}
+
+.ve-ui-mwLinkTargetInputWidget-menu .ve-ui-menuItemWidget[rel=newPage] {
+	color: #BA0000;
+}
+
+.ve-ui-mwLinkTargetInputWidget-menu .ve-ui-menuItemWidget[rel=existingPage],
+.ve-ui-mwLinkTargetInputWidget-menu .ve-ui-menuItemWidget[rel=matchingPage],
+.ve-ui-mwLinkTargetInputWidget-menu .ve-ui-menuItemWidget[rel=externalLink] {
+	color: #0645AD;
+}
+
+/* ve.ui.MWCategoryWidget */
+
+.ve-ui-mwCategoryWidget {
+	padding: 0;
+}
+
+.ve-ui-mwCategoryWidget-items {
+	/* MDN claims we need to use word-wrap: break-word; and that it's been renamed to
+	 * overflow-wrap: break-word; , but the only thing that actually works in practice is
+	 * word-break: break-word; (which is not documented in any standard at all). So we just use
+	 * all three.
+	 */
+	/*csslint known-properties:false */
+	word-break: break-word;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+
+.ve-ui-mwCategoryInputWidget {
+	float: left;
+}
+
+/* ve.ui.MWCategoryItemWidget */
+
+.ve-ui-mwCategoryItemWidget {
+	position: relative;
+	float: left;
+}
+
+.ve-ui-mwCategoryItemButton {
+	position: relative;
+	padding: 0.5em 0.75em 0.5em 1.125em;
+	margin: 0.75em 0.75em 0 0;
+	vertical-align: top;
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	opacity: 0.8;
+	/* Animation */
+	-webkit-transition: border-color 100ms;
+	-moz-transition: border-color 100ms;
+	-o-transition: border-color 100ms;
+	transition: border-color 100ms;
+
+	/* Gray */
+	border-radius: 1.25em;
+	border: 1px #c9c9c9 solid;
+	background-color: #ffffff;
+	filter: progid:DXImageTransform.Microsoft.gradient(
+		GradientType=0,startColorstr=#ffffff, endColorstr=#f0f0f0
+	);
+	background-image: -webkit-gradient(
+		linear, right top, right bottom, color-stop(0%,#ffffff), color-stop(100%,#f0f0f0)
+	);
+	background-image: -webkit-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+	background-image: -moz-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+	background-image: -ms-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+	background-image: -o-linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+	background-image: linear-gradient(top, #ffffff 0%, #f0f0f0 100%);
+}
+
+.ve-ui-mwCategoryItemButton:hover {
+	opacity: 1;
+}
+
+.ve-ui-mwCategoryItemButton span {
+	display: block;
+	padding-right: 1.5em;
+	color: #333;
+}
+
+.ve-ui-mwCategoryItemButton:active {
+	border-color: #ddd;
+	box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, 0.07);
+	color: black;
+}
+
+.ve-ui-mwCategoryItemControl {
+	position: absolute;
+	right: 0;
+	top: 0.125em;
+	width: 2.25em;
+	height: 2.25em;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/* ve.ui.MWCategoryInputWidget */
+
+.ve-ui-mwCategoryInputWidget {
+	float: left;
+	width: 15em;
+	margin-top: 0.75em;
+	margin-right: -1px;
+}
+
+.ve-ui-mwCategoryInputWidget input {
+	border-radius: 2em;
+	font-size: 1.05em;
+	margin-top: 0;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+}
+
+/* ve.ui.MWCategoryPopupWidget */
+
+.ve-ui-mwCategoryPopupWidget {
+	position: absolute;
+	margin-top: -10px;
+}
+
+.ve-ui-mwCategoryPopupWidget-content {
+	padding: 0.75em 0.5em;
+}
+
+.ve-ui-mwCategoryPopupWidget .ve-ui-iconButtonWidget {
+	display: block;
+	float: left;
+}
+
+.ve-ui-mwCategoryPopupWidget label {
+	opacity: .8;
+	display: block;
+}
+
+.ve-ui-mwCategoryPopupWidget-title {
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding: 0.5em 0.5em 0.5em 2.25em;
+	margin: -0.4em 0 1em 0.125em;
+}
+
+.ve-ui-mwCategoryPopupWidget .ve-ui-removeButtonLabel:hover {
+	opacity: 1;
+}
+
+.ve-ui-mwCategoryPopupWidget-removeButton {
+	position: absolute;
+	margin-right: 2px;
+	padding: 0.5em;
+	right: 0;
+	top: 0;
+}
+
+.ve-ui-mwCategoryPopupWidget-sortKeyForm {
+	padding: 0.5em;
+	display: block;
+}
+
+.ve-ui-mwCategoryPopupWidget-sortKeyForm .ve-ui-inputLabelWidget {
+	padding: 0 0.125em 0.5em 0.125em;
+}
+
+/* ve.ui.MWMediaResultWidget */
+
+.ve-ui-mwMediaResultWidget {
+	display: inline-block;
+	position: relative;
+	padding: 0;
+	margin: 2px;
+	overflow: hidden;
+}
+
+.ve-ui-mwMediaResultWidget-error {
+	background-color: #f3f3f3;
+}
+
+.ve-ui-mwMediaResultWidget-thumbnail {
+	position: absolute;
+	opacity: 0;
+	-webkit-transition: opacity 400ms;
+	-moz-transition: opacity 400ms;
+	-o-transition: opacity 400ms;
+	transition: opacity 400ms;
+}
+
+.ve-ui-mwMediaResultWidget-done .ve-ui-mwMediaResultWidget-thumbnail,
+.ve-ui-mwMediaResultWidget-error .ve-ui-mwMediaResultWidget-thumbnail {
+	opacity: 1;
+}
+
+.ve-ui-mwMediaResultWidget-crop {
+	background-size: cover;
+	background-position: center center;
+}
+
+.ve-ui-mwMediaResultWidget-overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	box-shadow: inset 0 0 0 1px #ccc;
+}
+
+.ve-ui-optionWidget-highlighted .ve-ui-mwMediaResultWidget-overlay,
+.ve-ui-optionWidget-selected .ve-ui-mwMediaResultWidget-overlay {
+	box-shadow: inset 0 0 0 1px #a7dcff;
+}
+
+.ve-ui-mwMediaResultWidget.ve-ui-optionWidget-highlighted {
+	box-shadow: 0 0 0.3em #a7dcff, 0 0 0 white;
+}
+
+.ve-ui-mwMediaResultWidget.ve-ui-optionWidget-selected {
+	box-shadow: 0 0 0.3em #a7dcff, 0 0 0 white;
+}
+
+.ve-ui-mwMediaResultWidget-error .ve-ui-mwMediaResultWidget-thumbnail {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAMAAABl5a5YAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5OENCNTE3M0MxNDIxMUUyQTE0MUQ1NkJFQ0E4NzBFQyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5OENCNTE3NEMxNDIxMUUyQTE0MUQ1NkJFQ0E4NzBFQyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjk4Q0I1MTcxQzE0MjExRTJBMTQxRDU2QkVDQTg3MEVDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjk4Q0I1MTcyQzE0MjExRTJBMTQxRDU2QkVDQTg3MEVDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+8UUyHwAAACRQTFRF////wMDAAAAAAIAAAAD/gICA/wD//wAAAP8AAACAAP//////D+hMiQAAAAx0Uk5T//////////////8AEt/OzgAAAGVJREFUeNpc0EcSwCAIBVCKxJT73zd0E/+OpwMM8GyBhzqSABWRBMwISAOzg0oAn0yI1qeADRChQB/xD5oxBkE2nQ73gmP6jwsaTMg2pAIVLbspUey/pkTZYz9xoDhEnEBhyyvAANsaBL2ajBjhAAAAAElFTkSuQmCC);
+	background-image: url(//bits.wikimedia.org/static-1.22wmf22/extensions/VisualEditor/modules/ve-mw/ui/styles/images/broken-image.png?2013-10-17T16:28:20Z)!ie;
+	background-size: auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.ve-ui-mwMediaResultWidget .ve-ui-labeledElement-label {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	padding: 0.5em;
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	line-height: 1.125em;
+	background-color: rgba(0,0,0,0.5);
+	text-overflow: ellipsis;
+}
+
+.ve-ui-mwMediaResultWidget.ve-ui-optionWidget-highlighted .ve-ui-labeledElement-label {
+	background-color: rgba(0,0,0,0.75);
+}
+
+.ve-ui-mwMediaResultWidget.ve-ui-optionWidget-selected .ve-ui-labeledElement-label {
+	background-color: #000;
+}
+
+/* ve.ui.MWReferenceSearchWidget */
+
+.ve-ui-mwReferenceSearchWidget-citation {
+	float: left;
+	margin-right: 0.75em;
+}
+
+.ve-ui-mwReferenceSearchWidget-name {
+	float: right;
+	margin-left: 0.75em;
+	margin-bottom: 0.75em;
+	color: #777;
+}
+
+/* ve.ui.MWReferenceResultWidget */
+
+.ve-ui-mwReferenceResultWidget {
+	position: relative;
+	padding: 1em;
+	border-bottom: solid 1px #eee;
+}
+
+.ve-ui-mwReferenceResultWidget .ve-ui-labeledElement-label {
+	white-space: normal;
+}
+
+.ve-ui-mwReferenceResultWidget-shield {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.ve-ui-mwReferenceResultWidget-divider {
+	font-weight: bold;
+}
+
+/* ve.ui.MWParameterSearchWidget */
+
+.ve-ui-mwParameterSearchWidget .ve-ui-selectWidget {
+	position: relative;
+	width: 100%;
+}
+
+.ve-ui-mwParameterSearchWidget .ve-ui-searchWidget-results {
+	overflow-y: hidden;
+}
+
+/* ve.ui.MWParameterResultWidget */
+
+.ve-ui-mwParameterResultWidget {
+	padding-right: 0.25em;
+}
+
+.ve-ui-mwParameterResultWidget .ve-ui-optionWidget-icon {
+	top: 0.25em;
+	margin-top: 0;
+}
+
+.ve-ui-mwParameterResultWidget.ve-ui-widget-disabled {
+	opacity: 0.5;
+}
+
+.ve-ui-mwParameterResultWidget-label,
+.ve-ui-mwParameterResultWidget-names,
+.ve-ui-mwParameterResultWidget-description {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	/* HACK: Based on the expected width of this widget, using % produces unreliable results*/
+	max-width: 33em;
+}
+
+.ve-ui-mwParameterResultWidget-label {
+	font-weight: bold;
+	float: left;
+}
+
+.ve-ui-mwParameterResultWidget-names {
+	float: right;
+	font-size: 0.9em;
+}
+
+.ve-ui-mwParameterResultWidget-name {
+	border-radius: 0.3em;
+	padding: 0.125em 0.25em;
+	margin-left: 0.5em;
+	color: #999;
+	background-color: #fff;
+	border: solid 1px #ddd;
+}
+
+.ve-ui-mwParameterResultWidget-names span:not(:first-child) {
+	background-color: #eee;
+}
+
+.ve-ui-mwParameterResultWidget-description {
+	clear: both;
+}
+
+/*!
+ * VisualEditor UserInterface Inspector styles.
+ *
+ * @copyright 2011-2013 VisualEditor Team and others; see AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-ui-inspector {
+	-webkit-transition: opacity 100ms;
+	-moz-transition: opacity 100ms;
+	-o-transition: opacity 100ms;
+	transition: opacity 100ms;
+}
+
+.ve-ui-inspector .ve-ui-frame {
+	width: 17.25em;
+	height: 3em;
+}
+
+.ve-ui-inspector-content .ve-ui-window-head {
+	height: 2em;
+	padding: 0.5em;
+}
+
+.ve-ui-inspector-content .ve-ui-window-icon {
+	padding-left: 0.5em;
+	margin-left: 0.25em;
+	border-left: solid 1px #eee;
+}
+
+.ve-ui-inspector-content .ve-ui-inspector-closeButton {
+	float: left;
+}
+
+.ve-ui-inspector-content .ve-ui-inspector-removeButton {
+	float: right;
+}
+
+.ve-ui-inspector-content .ve-ui-window-body form {
+	margin: 0.25em 0 0 0;
+	padding: 0;
+	white-space: nowrap;
+}
+
+.ve-ui-inspector-content .ve-ui-window-body .ve-ui-textInputWidget {
+	width: 100%;
+}
+
+/*!
+ * VisualEditor MediaWiki UserInterface Inspector styles.
+ *
+ * @copyright 2011-2013 VisualEditor Team and others; see AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+/* ve.ui.MWExtensionInspector */
+
+.ve-ui-mwExtensionInspector-input textarea {
+	height: 8em;
+}
+
+/*!
+ * VisualEditor UserInterface Dialog styles.
+ *
+ * @copyright 2011-2013 VisualEditor Team and others; see AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-ui-dialog {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1em;
+	line-height: 1em;
+	background-color: #fff;
+	background-color: rgba(255,255,255,0.5);
+	-webkit-animation: ve-ui-fade-in 250ms ease-in-out 0 1 normal;
+	-moz-animation: ve-ui-fade-in 250ms ease-in-out 0 1 normal;
+	-o-animation: ve-ui-fade-in 250ms ease-in-out 0 1 normal;
+	animation: ve-ui-fade-in 250ms ease-in-out 0 1 normal;
+}
+
+.ve-ui-dialog-closing {
+	-webkit-animation: ve-ui-fade-in 250ms ease-in-out 0 1 reverse;
+	-moz-animation: ve-ui-fade-in 250ms ease-in-out 0 1 reverse;
+	-o-animation: ve-ui-fade-in 250ms ease-in-out 0 1 reverse;
+	animation: ve-ui-fade-in 250ms ease-in-out 0 1 reverse;
+}
+
+.ve-ui-dialog .ve-ui-window-frame {
+	position: fixed;
+	top: 1em;
+	right: 0;
+	bottom: 1em;
+	left: 0;
+	margin: auto;
+	width: 800px;
+	min-height: 12em;
+	max-height: 600px;
+	background-color: #fff;
+	border: solid 1px #ccc;
+	border-radius: 0.5em;
+	box-shadow: 0 0.2em 1em rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
+	-webkit-animation: ve-ui-zoom-in 250ms ease-in-out 0 1 normal;
+	-moz-animation: ve-ui-zoom-in 250ms ease-in-out 0 1 normal;
+	-o-animation: ve-ui-zoom-in 250ms ease-in-out 0 1 normal;
+	animation: ve-ui-zoom-in 250ms ease-in-out 0 1 normal;
+}
+
+.ve-ui-dialog .ve-ui-window-frame-small {
+	width: 600px;
+	max-height: 375px;
+}
+
+.ve-ui-dialog-closing .ve-ui-window-frame {
+	-webkit-animation: ve-ui-zoom-in 250ms ease-in-out 0 1 reverse;
+	-moz-animation: ve-ui-zoom-in 250ms ease-in-out 0 1 reverse;
+	-o-animation: ve-ui-zoom-in 250ms ease-in-out 0 1 reverse;
+	animation: ve-ui-zoom-in 250ms ease-in-out 0 1 reverse;
+}
+
+.ve-ui-dialog .ve-ui-frame {
+	width: 100%;
+	height: 100%;
+}
+
+.ve-ui-dialog-content .ve-ui-window-head,
+.ve-ui-dialog-content .ve-ui-window-body,
+.ve-ui-dialog-content .ve-ui-window-foot {
+	position: absolute;
+	left: 0;
+	right: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.ve-ui-dialog-content .ve-ui-window-head {
+	top: 0;
+	height: 3.8em;
+	padding: 0.5em;
+}
+
+.ve-ui-dialog-content .ve-ui-window-foot {
+	bottom: 0;
+	height: 4.8em;
+	padding: 1em;
+}
+
+.ve-ui-dialog-content .ve-ui-window-body {
+	box-shadow: 0 0 0.66em rgba(0,0,0,0.25);
+	top: 3.8em;
+	bottom: 4.8em;
+}
+
+.ve-ui-dialog-content-footless .ve-ui-window-body {
+	bottom: 0;
+}
+
+.ve-ui-dialog-content-footless .ve-ui-window-foot {
+	display: none;
+}
+
+.ve-ui-dialog-content .ve-ui-window-icon {
+	width: 2.4em;
+	height: 2.8em;
+	line-height: 2.8em;
+}
+
+.ve-ui-dialog-content .ve-ui-window-title {
+	line-height: 2.8em;
+}
+
+.ve-ui-dialog-content .ve-ui-window-foot .ve-ui-pushButtonWidget {
+	float: left;
+	margin: 0.125em 0.25em;
+}
+
+.ve-ui-dialog-content .ve-ui-window-foot .ve-ui-pushButtonWidget.ve-ui-flaggableElement-primary,
+.ve-ui-dialog-content .ve-ui-window-foot .ve-ui-pushButtonWidget.ve-ui-flaggableElement-constructive,
+.ve-ui-dialog-content .ve-ui-window-foot .ve-ui-pushButtonWidget.ve-ui-flaggableElement-destructive {
+	float: right;
+}
+
+.ve-ui-dialog-content .ve-ui-window-closeButton {
+	float: right;
+	margin: 0.25em 0.25em;
+}
+
+.ve-ui-dialog-content .ve-ui-window-body .ve-ui-surface {
+	border: solid 1px #ddd;
+	border-radius: 0.25em;
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+}
+
+.ve-ui-window-body .ve-ce-documentNode {
+	padding: 1.875em; /* 1.5/0.8 */
+}
+
+/* ve.ui.PagedLayout */
+
+.ve-ui-pagedLayout-pagesPanel .ve-ui-panelLayout {
+	padding: 1.5em;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.ve-ui-pagedLayout-pagesPanel .ve-ui-panelLayout-scrollable {
+	overflow-y: auto;
+}
+
+.ve-ui-pagedLayout-pagesPanel .ve-ui-panelLayout-padded {
+	padding: 2em;
+}
+
+/* ve.ui.PagedOutlineLayout */
+
+.ve-ui-pagedOutlineLayout-outlinePanel {
+	border-right: solid 1px #ddd;
+}
+
+.ve-ui-pagedOutlineLayout-outlinePanel-editable .ve-ui-outlineWidget {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 3em;
+	overflow-y: auto;
+}
+
+.ve-ui-pagedOutlineLayout-outlinePanel .ve-ui-outlineControlsWidget {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	box-shadow: 0 0 0.25em rgba(0,0,0,0.25);
+}
+
+.ve-ui-window-body .ve-ce-documentNode {
+	padding: 1.875em; /* 1.5/0.8 */
+}
+
+/*!
+ * VisualEditor MediaWiki UserInterface Dialog styles.
+ *
+ * @copyright 2011-2013 VisualEditor Team and others; see AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+/* ve.ui.MWTransclusionDialog */
+
+.ve-ui-mwTransclusionDialog-input {
+	width: 100%;
+}
+
+.ve-ui-mwTransclusionDialog-input textarea {
+	height: 10em;
+}
+
+.ve-ui-mwTransclusionDialog-addTemplateFieldset .ve-ui-widget {
+	display: inline-block;
+}
+
+.ve-ui-mwTransclusionDialog-addTemplateFieldset .ve-ui-pushButtonWidget {
+	margin-left: 0.5em;
+}
+
+.ve-ui-mwTransclusionDialog-placeholder-label {
+	font-style: italic;
+}
+
+.ve-ui-mwTransclusionDialog-addParameterFieldset .ve-ui-mwParameterSearchWidget {
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 0 0.5em rgba(0,0,0,0.2);
+	margin-bottom: 1em;
+}
+
+.ve-ui-mwTransclusionDialog-addParameterFieldset .ve-ui-searchWidget-results {
+	position: relative;
+	padding-bottom: 5em;
+}
+
+/* ve.ui.MWMetaDialog */
+
+.ve-ui-mwMetaDialog-languages-table {
+	margin: 2em 0 0 0;
+	padding: 0;
+	width: 100%;
+	border: none;
+	border-collapse: collapse;
+}
+
+.ve-ui-mwMetaDialog-languages-table th {
+	border-bottom: solid 1px #ddd;
+	text-align: left;
+}
+
+.ve-ui-mwMetaDialog-languages-table th,
+.ve-ui-mwMetaDialog-languages-table td {
+	padding: 0.75em 1em;
+	border-bottom: solid 1px white;
+}
+
+.ve-ui-mwMetaDialog-languages-table tr td:first-child {
+	width: 30%;
+}
+
+.ve-ui-mwMetaDialog-languages-table tr:nth-child(odd) td {
+	background: #F0F0F0;
+}
+
+.ve-ui-mwMetaDialog-languages-table tr:nth-child(even) td {
+	background: #F8F8F8;
+}
+
+/* ve.ui.MWBetaWelcomeDialog */
+
+.ve-ui-mwBetaWelcomeDialog-content {
+	line-height: 1.5em;
+	font-size: 1.1em;
+}
+
+/* ve.ui.MWMediaInsertDialog */
+
+.ve-ui-mwMediaInsertDialog-select {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+/* ve.ui.MWSaveDialog */
+
+.ve-ui-mwSaveDialog-panel {
+	margin: 1.25em;
+}
+
+.ve-ui-mwSaveDialog-summaryLabel {
+	padding: 0.25em 0;
+}
+
+.ve-ui-mwSaveDialog-summary {
+	width: 100%;
+	background-color: #fff;
+	border: solid 1px #ccc;
+	padding: 0.5em;
+	border-radius: 0.25em 0.25em 0 0;
+}
+
+.ve-ui-mwSaveDialog-summary textarea {
+	margin: 0;
+	padding: 0;
+	resize: none;
+	height: 80px;
+	border: none;
+	box-shadow: none;
+	background-color: transparent;
+}
+
+.ve-ui-mwSaveDialog-summary textarea:focus,
+.ve-ui-mwSaveDialog-summary textarea:active {
+	box-shadow: none;
+}
+
+.ve-ui-mwSaveDialog-foot {
+	margin: 0.5em;
+}
+
+.ve-ui-mwSaveDialog-options {
+	position: relative;
+	background-color: #f7f7f7;
+	border: solid 1px #ccc;
+	border-top: none;
+	border-radius: 0 0 0.25em 0.25em;
+	min-height: 3em;
+}
+
+.ve-ui-mwSaveDialog-checkboxes {
+	margin-right: 3.25em; /* Hack to prevent overlap on edit summary count */
+	line-height: 3em;
+	padding: 0 0.75em;
+}
+
+.ve-ui-mwSaveDialog-checkboxes label {
+	padding-right: 0.75em;
+	vertical-align: middle;
+}
+
+.ve-ui-mwSaveDialog-checkboxes input {
+	vertical-align: middle;
+}
+
+.ve-ui-mwSaveDialog-editSummary-count {
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	border-left: solid 1px #eee;
+	line-height: 3em;
+	padding: 0 1em;
+	color: #aaa;
+}
+
+.ve-ui-mwSaveDialog-working {
+	display: none;
+	float: right;
+	height: 2.5em;
+	width: 128px;
+	margin-right: 1em;
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+
+.ve-ui-mwSaveDialog-license,
+.ve-ui-mwSaveDialog-dirtymsg,
+.ve-ui-mwSaveDialog-report-notice {
+	font-size: 0.85em;
+	line-height: 1.25em;
+	padding: 0;
+	margin: 0;
+	color: #999;
+}

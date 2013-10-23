@@ -1,0 +1,933 @@
+.listThumb{background-repeat:no-repeat;background-position:center center}.listThumb.needsPhoto{-o-background-size:100% auto;-webkit-background-size:100% auto;background-size:100% auto;background-color:#3b6fba;background-image:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/../specials/images/camera.png?2013-10-10T16:43:20Z)}.listThumbH{-o-background-size:auto 100%;-webkit-background-size:auto 100%;background-size:auto 100%}.listThumbV{-o-background-size:100% auto;-webkit-background-size:100% auto;background-size:100% auto}ul.page-list{list-style:none}ul.page-list li{border-bottom:solid 1px #e2e2e2;color:#808080;line-height:1;position:relative}ul.page-list li .listThumb{position:absolute;width:70px;height:100%;margin:0 0 0 -85px}ul.page-list li .title{display:block;position:relative;padding:0 16px 15px 16px;margin:-1px 0;text-decoration:none}ul.page-list li .title h2{font:inherit;margin:0;font-weight:bold;color:#404040;padding:20px 24px 0 0}ul.page-list li .title.new h2{color:#CC0000}ul.page-list li a:active{background:#e8e8e9;background:rgba(232,232,233,0.5)}ul.page-list li div,ul.page-list li p{font-size:.9em;margin:0;color:#999b9e}ul.page-list li p{white-space:nowrap;text-overflow:ellipsis;-webkit-text-overflow:ellipsis;overflow:hidden;line-height:1;margin:.25em 0 0}ul.page-list li .info{color:#a6a6a6;font-size:.7em;text-transform:uppercase;margin:.6em 0 0}ul.page-list li .mw-mf-user{margin:.5em 0 0}ul.a-to-z li a.title{padding-left:85px}.mw-mf-overlay ul.a-to-z li{font-size:0.9em}.mw-mf-overlay ul.a-to-z li h2{font-weight:normal;color:#666}.mw-mf-overlay ul.a-to-z li .listThumb{width:40px;height:100%;margin-left:-55px}.mw-mf-overlay ul.a-to-z li a.title{padding-left:55px}.stable .mw-mf-overlay ul.a-to-z li{padding:12px 40px;line-height:1.65}.stable .mw-mf-overlay ul.a-to-z li a.title{padding:0;margin:0}.stable .mw-mf-overlay ul.a-to-z li a.title h2{padding:0}.stable .mw-mf-overlay ul.a-to-z li a.title .info{display:none}html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,ins,em,img,small,strike,strong,sub,sup,tt,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,input,textarea,button,select,table,caption,tbody,tfoot,thead,tr,th,td,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}button{border:none;background-color:transparent}body{line-height:1}input{line-height:normal}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}.mw-mf-image-replacement{font-style:italic;color:#706E6E;text-decoration:underline;border:dotted 1px #CCC;padding:10px;display:inline-block}.inputs-box{padding:1px;border:solid 1px #e1e1e1;border-radius:5px;background:#fff;margin:0 0 .8em;text-align:center}.inputs-box input:not([type=submit]),.inputs-box img{border:none;border-top:solid 1px #e1e1e1}.inputs-box input:not([type=submit]):first-child,.inputs-box img:first-child{border-top:none}.inputs-box input:not([type=submit]){-webkit-appearance:none;border-radius:0;padding:.8em .5em;margin:0;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}textarea{padding:5px 0 5px 5px}input,textarea{font-size:1.11em}input:not([type=submit]),textarea{background:#fff;border:1px solid #ccc;border-radius:3px;padding:5px}.mw-input [type=submit],.mw-submit{margin-top:8px;min-width:80%}a.external{background:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/images/external-link-ltr-icon.png?2013-10-10T16:43:20Z) center right no-repeat;padding-right:13px}ul.gallery li.gallerybox{display:inline-block}ul.gallery li.gallerybox div.thumb img{display:block;margin:0 auto}ul.gallery li.gallerybox div.gallerytext{overflow:hidden;padding:2px 4px;word-wrap:break-word}#content{position:relative}p,li,dl{line-height:1.65}pre{white-space:pre-wrap}a{text-decoration:none;color:#002bb8}a:visited{color:#5a3696}a:active{color:#faa700}a:hover{text-decoration:underline}a.new,a.new:visited,a.new:hover{color:#CC0000}img.thumbborder{border:1px solid #ccc}.sibling-page{display:block;font-size:.9em;margin-top:1.5em}.plainlinks a{background:none !important;padding:0 !important}strong,b{font-weight:bold}em,i{font-style:italic}.hlist > ul li,ul.hlist li{display:inline-block;margin-right:8px}.content ul{list-style:square inside}.content ol{list-style:decimal inside}.content table{overflow:auto;overflow-y:hidden;overflow-x:auto;display:block}.content table td,.content table th{padding:3px}.content div.magnify{display:none}.jsonly{display:none}.client-js .jsonly{display:block}.position-fixed{position:fixed}.animations .position-fixed{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.no-position-fixed #notifications{bottom:0}.no-position-fixed .position-fixed{position:absolute}.nomobile{display:none}@media all and (min-width:768px){.content .tleft{float:left}.content .tright{float:right}}.button,button,input[type=submit]{display:inline-block;border-radius:3px;white-space:nowrap;line-height:1;cursor:pointer;margin:0;padding:.8em 1.2em;text-align:center;border:1px #33589f solid;color:white;background-color:#3366BB;background-image:-moz-linear-gradient(top,#3670C8 0,#3366BB 100%);background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#3670C8),color-stop(100%,#3366BB));background-image:-webkit-linear-gradient(top,#3670C8 0,#3366BB 100%);background-image:linear-gradient(#3670C8 0,#3366BB 100%)}.button:hover,button:hover,input[type=submit]:hover{background-color:#3f77d7;background-image:-moz-linear-gradient(top,#4c84da 0,#3f77d7 100%);background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#4c84da),color-stop(100%,#3f77d7));background-image:-webkit-linear-gradient(top,#4c84da 0,#3f77d7 100%);background-image:linear-gradient(#4c84da 0,#3f77d7 100%)}.button:active,button:active,input[type=submit]:active{background-color:#2a549c;background-image:-moz-linear-gradient(top,#2d5ea9 0,#2a549c 100%);background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#2d5ea9),color-stop(100%,#2a549c));background-image:-webkit-linear-gradient(top,#2d5ea9 0,#2a549c 100%);background-image:linear-gradient(#2d5ea9 0,#2a549c 100%)}.button:visited,button:visited,input[type=submit]:visited{color:#fff}.button:disabled,button:disabled,input[type=submit]:disabled{color:#bed1f1;background-color:#7798d2;background-image:-moz-linear-gradient(top,#7798d2 0,#7798d2 100%);background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#7798d2),color-stop(100%,#7798d2));background-image:-webkit-linear-gradient(top,#7798d2 0,#7798d2 100%);background-image:linear-gradient(#7798d2 0,#7798d2 100%);border-color:#648acc}.button.cancel,button.cancel,input[type=submit].cancel{background:#777;border:1px #666 solid}.button.inline,button.inline,input[type=submit].inline{display:inline;padding:0;line-height:inherit;color:#002bb8;background:none;border:none;text-shadow:none}.button.inline:hover,button.inline:hover,input[type=submit].inline:hover{text-decoration:underline}.header .button,.header button,.header input[type=submit]{line-height:28px;padding:0 1.25em;text-decoration:none;background-color:#e9e9ea;background-image:-moz-linear-gradient(top,#fff 45%,#e9e9ea 100%);background-image:-webkit-gradient(linear,left top,left bottom,color-stop(45%,#fff),color-stop(100%,#e9e9ea));background-image:-webkit-linear-gradient(top,#fff 45%,#e9e9ea 100%);background-image:linear-gradient(#fff 45%,#e9e9ea 100%);color:#58595b;border:1px solid #9ea0a3}.header .button-bar{text-align:center}.header .button-bar li{display:inline-block}.header .button-bar li .button,.header .button-bar li button{border-radius:0;border-right:none}.header .button-bar li .button:disabled,.header .button-bar li button:disabled{color:#9ea0a3}.header .button-bar li:active .button,.header .button-bar li:active button{background-color:#e9e9ea;background-image:-moz-linear-gradient(top,#c8cacb 0,#e9e9ea 100%);background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#c8cacb),color-stop(100%,#e9e9ea));background-image:-webkit-linear-gradient(top,#c8cacb 0,#e9e9ea 100%);background-image:linear-gradient(#c8cacb 0,#e9e9ea 100%)}.header .button-bar li.active .button,.header .button-bar li.active button{background:#c8cacb;font-weight:bold}.header .button-bar li:first-child .button,.header .button-bar li:first-child button{border-radius:3px 0 0 3px}.header .button-bar li:last-child .button,.header .button-bar li:last-child button{border-radius:0 3px 3px 0;border-right:1px solid #9ea0a3}#mw-mf-viewport{position:relative;height:100%}#mw-mf-page-center{width:100%;background-color:white;position:relative;z-index:3}#mw-mf-page-left{float:left;min-height:100%;display:none;background:#4E4E4E;border-left:solid 12px #252525;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}#mw-mf-page-left ul{background-color:#4E4E4E;list-style:none;margin:0;padding:0}#mw-mf-page-left ul:first-child{border-bottom:12px solid #252525}#mw-mf-page-left ul:first-child li:first-child a{border-top:none}#mw-mf-page-left ul li{position:relative;font-size:1.2em;text-shadow:0 1px 0 rgba(0,0,0,0.6)}#mw-mf-page-left ul li:hover{background-color:#5C5C5C;border-left:solid 12px #3366BB;margin-left:-12px}#mw-mf-page-left ul li .icon-secondary{border:none;position:absolute;right:0;top:0;background-position:center center;background-size:18px 18px;text-indent:-999px;overflow:hidden;padding-right:0;width:0;border-left:1px solid #717171}#mw-mf-page-left ul li .icon-profile{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-right:40px}#mw-mf-page-left ul li a{color:white;display:block;padding:13px 10px 11px 42px;line-height:22px;background-repeat:no-repeat;-o-background-size:24px 24px;-webkit-background-size:24px 24px;background-size:24px 24px;background-position:10px 50%;border-bottom:1px solid #3e3e3e;border-top:1px solid #717171}#mw-mf-page-left ul li a:hover{text-decoration:none}#mw-mf-page-left ul li.icon-home a{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAAAwklEQVR42u3RYQ2DMBDF8UmoBCQgAQlIQAISkICESqiESqgEJJyD/7IsZIxslNAjhOR+/djkveTdw5gVWtyZ8QMg1OeEOwKzTj++JrHktZcX1pLaNRj5TWg0lo9s6UuXn8jxh6eiQ9gjUaktn7lGwfJ5fenyeQG3b/njEnUu3lNGaLeWT2gY/i0vaAk4veXz18Dh0Sd07/iKxFnGV0Egzk+pKn7e+hINCpaJlxck4uJN+gXN1+9gBVZgBVZwowJj7uYJzjt74/BBFlgAAAAASUVORK5CYII=);background-image:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/images/menu/home.png?2013-10-10T16:43:20Z) !ie}#mw-mf-page-left ul li.icon-random a{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAABgUlEQVR42u3WUZHDIBSFYSQgIRIiAQlIiAQkREIkIAEJkRAJSMDBvzu7nTSdwlxuaR92Zr/nEpJz4UzNn4E1n8HEQqTA298Yz0bmzpv3wLFy8GwzY5gJJNqOsZQzMvtKygf9Fk3KO3pRDiOQKLwqN8OopCzJBPzT0Of6BhtaBVtdG+obLGitl6+/Sq3s9RucuCqmjgOdvfn1rm8K4ba40JKYsJVfrPUNfP08E9DaGwe1/plY6vSFwV678ng6ibXNyl3G3t7/QG9rlfFVYWMlI1DVNgVJwuFISCZTIy5M13npa1s+knP36KOiMDQbyIWRxyKSazuOD1mubb3MykbpqW2L3n6uzVzoa1sefVDVtr7acKra1v8XIvYVxqPC8tNT7egKy1mW6toGdxmhlpcLIw9NJ8q1XR4uoVbuqe1wblvQ2X/XyrUdcQTF4w+2+h0YL4yIxxoZExqFRGAyGuTOlFdm8wqimLI3I/DNlBesGYetpDybd+I4U3bmE3B4rPn37QtbAHEqV4OXXQAAAABJRU5ErkJggg==);background-image:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/images/menu/random.png?2013-10-10T16:43:20Z) !ie}#mw-mf-page-left ul li.icon-watchlist a{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAM1BMVEX////////////////////////////////////////////////////////////////////lEOhHAAAAEHRSTlMAECAwQFBgcICQoLDA0ODwVOCoyAAAAPBJREFUeNrN1MuuwyAMRVHzTgjg8/9fW8kdpGlwiaU7uGuWCexYFvRXAu9kUgEyGUAyFQGoZLADYGORNBmKpMlSZGsaEMlQJKqhSLClSCRDkdgNRWJYikSgCR+vMk41XskBDINCRA3PsVyx4anuScRF1X3K7sAaR/pQsNIcXYS+Gs83V6EbgSYSQ1EdTfl5FmdSbcrwVU75XVWe3UA/HJjwhiJRDEWiWYqEMxSJ/KCoh/38OEhRL5sfednEeOP0LmyLpnTb/PLRpBdtdArjVxNPNt9VvUmKjttZmbWmqmy+70pTQw/q6+ynbyxpYqF/7AV+dDAWUUBTeAAAAABJRU5ErkJggg==);background-image:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/images/menu/watchlist.png?2013-10-10T16:43:20Z) !ie}#mw-mf-page-left ul li.icon-uploads a{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAM1BMVEX////////////////////////////////////////////////////////////////////lEOhHAAAAEHRSTlMAECAwQFBgcICQoLDA0ODwVOCoyAAAANZJREFUeNrtk0kOwyAMRZlCIAz2/U/bllaCxEamu6rKW5L/FGNjdfNvaBeeOL0Ydwk/JKdkdMKBbKS8BTwBVs5/Y+iKBODuvqUK2SsVkSHR/IGNYpHF8vk5x/WiKAAXIZCEUFMShfPATRGFMOY9oEy1Uoem8/a4CJh3/cB9Y9uWmxD5v/tpqwAJxfRKybwNk9ez3pXXMvJ5fjGwCzTfDSrQfDfoE6T5uZH7u6PnDil7W01BoKudl4VdNTQsCgfdBirwa60DiELd1Ij2MXdi62geCJu6+SUejUg7X53rg78AAAAASUVORK5CYII=);background-image:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/images/menu/uploads.png?2013-10-10T16:43:20Z) !ie}#mw-mf-page-left ul li.icon-nearby a{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAABYElEQVR42s2XW5HDMAxFBcEQAiEQDCEQCsEQAiEQDMEQCsEQDCEMTmd29mNbbca5dTrT01/Z1uOqUuwsTETWn18iEuw6mMk0XqkkwhWX3zlmZx16hJU+jdnegUDhLDfT4Y6A/AQZlahcv+DJLITfwicqvuDhfPZ3nilM3glntb2rnXzkiItjsjPQ3PXHsTYXg5j/1rGOzroHm5OfIudZ0/8uR9zvhydtlFOa+8tqPZy54NKnHqjuhOSP6JJW5Lt1YXJFlvo4dO2T2MvMWsg012jSkZ1JiHcz03u5Ejp/FC5BWtmg/n+QGzs4SZyB4oZJIrw4UQbGJhHPTmYlcmOl4mmfHPn62Cei0b5nbdFj0P3XY1jsHZjo4PSvwja60+krmCfbCCQcwsIoD0RPslGYOaaahF7q2RT6G6i2TY9+L7RrP2WLpv7xjih2NSyC+ofTtJiAnqZsn4JFV4/edNG+iwdmrLsywuvssQAAAABJRU5ErkJggg==);background-image:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/images/menu/nearby.png?2013-10-10T16:43:20Z) !ie}#mw-mf-page-left ul li.icon-settings a{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAABWUlEQVR42u2XW5GEMBBFkYAEJCABCUhAAhIiAQmRgIRIiAQkxMHZral9FDRJhx4+pnb29t9U7j0zk04HmncRE2FfdwMcB706gE4FSEe98CR6DSAd9fHAr4ERz8ZRkYVOOGrjvw1MbJQU6PcOPd4kibDH2xEs3KOU6Sh6EnfIi+gCwhqvI+zx1j6KOIZHTYVmGNQRkev2w7o20xJBAZzaXGbtQEKqLwOkxZV27OIuMFz9yczCsRVipfQhXJhVQQesjSrmZwBTBaB7BjA0FSLZAW0VINgBfRVgswPGKgB2wFIRP+qADvdVqzg0huH4kzbVtNwsI5VhEcuGeOUSpyVe/EpMUIugxRtam+0EMZ6e4GhqC9bMlTPu/nlvvdE8JUXCZ6X/B68/9OBV2FCxRsbrCP84TI6tED4eHEJ5hN99EuRIoMs7dMSivQQqDl0a4O1fxE9m57Cv5lX0Ac1pSK7vK+NJAAAAAElFTkSuQmCC);background-image:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/images/menu/settings.png?2013-10-10T16:43:20Z) !ie}#mw-mf-page-left ul li.icon-user .icon-secondary-logout,#mw-mf-page-left ul li.icon-loginout a{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAM1BMVEX////////////////////////////////////////////////////////////////////lEOhHAAAAEHRSTlMAECAwQFBgcICQoLDA0ODwVOCoyAAAAUBJREFUeNrVldtygCAMRAWCeOGS///atgwYypo6zrQP3SdH9kziEnD5LRGZN3aXmcv6Aoj8qfKiBletbwH6C8DQDDj7UziRufgRcIk5e82/lhaOAKk+7IqfWzgC2PbqUPwAONYJz112aClzE3RlixQYAHe99jgMVcV9j9XUBRwUuvywcUdb2qCA+AUY1wwUqBYETMESRw8PAQk8i7+nZwHA5SonBRCQEmHetFUD7Lx5m5REQHqKM7CoQHwC8pTKE1BHKPtnQGRCTUADwtOh56pznoxN83tY73uv6IAOotrTOH14ntM9sOO5xgnWZl+6VO5fOdb5/g5Y0Y8FZO+wK9/9Ef8hTYmGwifLpYHZdeW9/uAoJL5EyseB1DCAQD/KpHt7ceiVrFCnWXTZY7ZHmiyAjNnk3aEDZShsXyK7/At9ALbFLhjlKY4EAAAAAElFTkSuQmCC);background-image:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/images/menu/loginout.png?2013-10-10T16:43:20Z) !ie}#mw-mf-page-left ul li.icon-user a{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAABwElEQVR42u3VPyiEYRzA8Z+TvAiLk41JTBb/BwOLGExKYdOFBaVY3SCbwXIWjAbFDQaL4aSUPxn9C4v/1EmuiPd8B+p68/Ye3nvPU8+vPuPver713vNIPB7/YiCACC5h4n+P5fDrUG4EmQhDyRF0QNkRLKkecK96QFwH6AAdoAN0QDoDrrCJ6A/3XrCNI5jpCIihF/IpCxNJ7obhT9itwanXAcOQbyw47B3AgFhU482rABOFNgHNDrtBiI09rwJi8NkcosphdwhiY83LT6jO5hD9DnuLNnu5ePAyYAf5lkOU4jaJz6/dspeBUDqu0TOMoROTeExy7x1z6MYgIvoh0wE6QAfoAB2Q6oAoulCMUTzBzTExhwYEcON2wAwkQTn24cZcoxWSYNztgBDEIhsDOMZv5g5BFEEs+twOiKER8g0f2jGNXbzDbs4xjx7k2PyeHwep+BO/YgTiwEAZatGGJlSiCOKgCRepvoVWUAFxUQGCePPqGjWxjHrIH5RgCo/pfAdOMItO+B0OnIcWBBHBy398yJ5xhi2sYgOHiOqXWAfoAB2QOPeqByypHtChckAYmaoGrMOAqBJg4hIRBGBAIB/Ncg60Su6S/AAAAABJRU5ErkJggg==);background-image:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/images/menu/user.png?2013-10-10T16:43:20Z) !ie}#mw-mf-page-left ul li.icon-anon a{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAABwUlEQVR42u3YPyiEcRzH8d95pOsWg38p3YYF+TOalIH8uUK5shMjgzIQEiWjwUIGdSSxGBTDrVKXnDqckn+DP8nk6O68rzz1dOmhw3me6/upV89yw/Mefr+nTsXjcZ0TvfDjBjFYfsaX34PtpqBhC/qiCGINPou6MAZ4oC8AN5TF+YwB69BXCWW3gHskFoKyY4A+nwRIgARIgARIQCYGlGMADigTGkaQZ/KbYgxDgzLhwABKfyNAwxPOMYlWVKHo49mGaVzhCOoLZ7jGLDyoRhEq0IJxhHEHx88DgA7EYLYI6r8R0IA3mC2K9t8+A15c4bOdoAnqm9oQxme7RPdfHWIXejCDFUygE9kpHMQcdGEMi5iAF065hSRAAiRAAiRAAjI9INvOAYNI7Bh9cEGlqAbz2EdzugKWYdwDZlCKLKgv5KIfBzBuM10BJVjCC5L3ilPsYAEjmPqI3kUIESQvjNp0H+JCjOIWqSyCVTTC8Z+3UA68mMMGAnhG8h5xiG0MocDq12g+6lAGl3wHJEACJCCjAkJI7N6OAZXQt263ADcC0OcxBlzAZ1FrCCIKfVvQCLDl9uCEsktADDfwo9f4/+k7B58r6oI7dCcAAAAASUVORK5CYII=);background-image:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/images/menu/anon.png?2013-10-10T16:43:20Z) !ie}#mw-mf-page-left ul.hlist li{font-size:0.8em;margin:0;border:none}#mw-mf-page-left ul.hlist li a{color:#ccc;border:none;padding:.7em 14px}body.navigation-enabled{border-left:solid 12px #252525;background:#4E4E4E}body.navigation-enabled #mw-mf-viewport{margin-left:-12px;overflow:hidden;min-height:100%;height:auto !important}body.navigation-enabled #mw-mf-page-center{position:absolute;height:100%;border-left:solid 1px #000;box-shadow:-5px 0 0 0 rgba(0,0,0,0.1)}body.navigation-enabled #mw-mf-page-left{width:16em;display:block}body.navigation-enabled .position-fixed,body.navigation-enabled #mw-mf-page-center{left:16em !important}@media (min-width:768px){body.navigation-enabled.alpha,body.navigation-enabled.beta{background:#fff}body.navigation-enabled.alpha #mw-mf-page-center,body.navigation-enabled.beta #mw-mf-page-center{position:relative;width:80%}body.navigation-enabled.alpha #mw-mf-page-left,body.navigation-enabled.beta #mw-mf-page-left{position:absolute;width:20%}body.navigation-enabled.alpha .position-fixed,body.navigation-enabled.alpha #mw-mf-page-center,body.navigation-enabled.beta .position-fixed,body.navigation-enabled.beta #mw-mf-page-center{left:20% !important}body.navigation-enabled.alpha #mw-mf-diffview #mw-mf-userinfo,body.navigation-enabled.beta #mw-mf-diffview #mw-mf-userinfo{width:80%}}.header{position:relative;background-color:#f3f3f3;background-image:-moz-linear-gradient(top,#fafafa 0,#f3f3f3 100%);background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#fafafa),color-stop(100%,#f3f3f3));background-image:-webkit-linear-gradient(top,#fafafa 0,#f3f3f3 100%);background-image:linear-gradient(#fafafa 0,#f3f3f3 100%);border-bottom:1px solid #e2e2e2;line-height:44px;text-align:center;min-height:44px;padding:2px 10px 0 40px}.header h1,.header h2{font-size:1.6em}#mw-mf-main-menu-button,#secondary-button{height:46px;width:40px;position:absolute;top:0}.user-button{line-height:46px}.user-button:hover{text-decoration:none}.user-button span{display:inline-block;width:24px;height:24px;font-weight:bold;color:#fff;line-height:24px;background:#c91f2c;border-radius:2px}.user-button span.zero{background:#cecece}.is-authenticated .header{padding-right:40px}#secondary-button{right:0}#mw-mf-main-menu-button{background:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/images/menu/lowres/main.png?2013-10-10T16:43:20Z) 50% 50% no-repeat;-o-background-size:24px 30px;-webkit-background-size:24px 30px;background-size:24px 30px;left:0}.client-js #mw-mf-main-menu-button{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAABNUlEQVR42u3ZoUsDYRzGcYcWFdShQdEgXLCaNxCTQUUHbgdXjvs/blo0Xj8QQaPatRhM/gsqGMZmslx2Bl+/4Q3bC6YLvifPwaf/vjB2D9yEMabSFKAABShAAQr4PwFhGG6iB+OpR6z/HmCP91kcx0/cWsc0JkePX4CpAp4GAsxVNaCLQwSjP6FaFEUD349P0/STW+9sRGMsIM/znSRJPnw9PssyUxTFkFufcY7dsQCsooUrvOELPj3fGOLFBuy5AUvYxhkebMQA757o4xX3OEHTfTHMYgMhTnGJG9x64hoXOEYLgRswhbqN2MIB2uh44gj7aCLAvBtQsxEzWMQK1jyz7L7ISuHfoQxtIW0hbSFtIW0hbSFtIW0hbSFtIW0hbSFtIW0hbSFtIW2hv9lC+singJJ+AB2hM6JNJEOvAAAAAElFTkSuQmCC);background-image:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/images/menu/main.png?2013-10-10T16:43:20Z) !ie}.client-js .searchSubmit{display:none}input.search{outline:none;width:100%;height:30px;background-color:#fff !important;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-appearance:none}input.search::-webkit-search-cancel-button{-webkit-appearance:none}.searchSubmit{padding:0 !important;width:20%}.client-nojs input.search{width:80%}.search-box{-webkit-tap-highlight-color:rgba(255,255,255,0)}.content .edit-page{display:none}html{-webkit-text-size-adjust:none;font-size:90%}body{font-family:"Helvetica Neue","Helvetica","Nimbus Sans L","Arial","Liberation Sans",sans-serif;line-height:1.3333333333333em;color:#252525}.header h2,h1{font-family:Georgia,serif}#section_0{line-height:1.3}.content{margin:.8em 16px 0 16px}.content h1,.content h2,.content h3,.content h4,.content h5,.content h6{line-height:1.3;font-family:Georgia,serif;padding:.5em 0}.content p{margin-bottom:.7em}.content .thumb{margin:15px 0 15px 0;border:1px solid #ccc;border-radius:5px;background:#f9f9f9;text-align:center}.content ol ol,.content ol ul,.content ul ol,.content ul ul{margin-left:1em}dl{margin-left:1em}dl dt{font-weight:bold}h1{font-size:1.833em}h2{font-size:1.5em}h3{font-size:1.1666666666667em;font-weight:bold}h4{font-weight:bold}sup{vertical-align:super}sub{vertical-align:sub}sub,sup{font-size:0.75em}@media all and (max-width:280px){body{font-size:.8em}.content{margin:0 12px}}blockquote{quotes:"\201C" "\201D";padding:1em 0 1em 10px;position:relative}blockquote:before{content:open-quote;font-size:3em}blockquote:after{font-size:3em;content:close-quote;position:absolute;right:0;bottom:0}#footer{padding:2em 16px 1.5em 16px;margin:2em 0 0;border-top:1px solid #aaa;font-size:0.9em}#footer h2{display:inline;font-weight:bold;font-size:1em}#footer h2 img{height:1em}#footer ul{text-align:center}#footer ul li{line-height:1.2;padding:0 0 .7em}#footer ul ul{display:inline}#footer ul ul li,#footer ul.footer-places li{display:inline;padding:0 8px;border-right:1px solid #aaa}#footer ul ul li:last-child,#footer ul.footer-places li:last-child{border:none}.content_block{width:100%}.client-js .section_heading,.client-js .content_block{border-bottom:solid 1px #E2E3E4;clear:both}.client-js .section_heading{position:relative;background:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/modules/images/show.png?2013-10-10T16:43:20Z) left 1.05em no-repeat;-o-background-size:15px auto;-webkit-background-size:15px auto;background-size:15px auto;padding-left:24px;cursor:pointer}.client-js .section_heading.openSection{background-image:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/modules/images/hide.png?2013-10-10T16:43:20Z);padding-right:45px;border-bottom:solid 1px #E2E3E4;margin-bottom:.5em}.client-js .content_block{display:none}.client-js .content_block.openSection{display:block}.watch-this-article{background-image:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/images/watch.png?2013-10-10T16:43:20Z);background-position:center center;-o-background-size:auto 22px;-webkit-background-size:auto 22px;background-size:auto 22px;position:absolute;top:0;right:0;text-indent:-9999px;background-repeat:no-repeat}.watch-this-article.watched{background-image:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/images/watched.png?2013-10-10T16:43:20Z)}.search.error,.error{border:solid 1px #D00;background-color:#FAE1E1}.alert{padding:0.5em 1em;background-repeat:no-repeat;background-position:1em center;min-height:64px;font-size:1em}.alert.warning{border:solid 1px orange}.alert.success{padding-left:80px + 0.5em 1em;border:solid 1px green;background-image:url(images/success.png)}.alert h2{font-family:"Helvetica Neue","Helvetica","Nimbus Sans L","Arial","Liberation Sans",sans-serif;font-size:100%;font-weight:bold;margin:0 0 8px 0}#content .alert{margin:0}html,body{background:#fff;height:100%}.overlay-enabled #mw-mf-page-center{display:none}.overlay-enabled .mw-mf-overlay{height:100%}html[dir="rtl"] .mw-mf-overlay .header .cancel{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.mw-mf-overlay{position:absolute;top:0;left:0;width:100%;background-color:white;z-index:4}.mw-mf-overlay .header .cancel{display:block;position:absolute;cursor:pointer;border:none;height:46px;width:40px;overflow:hidden;left:0;background:none;background-image:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/images/arrow-left.png?2013-10-10T16:43:20Z);background-repeat:no-repeat;background-position:center center;text-indent:-999px;-o-background-size:auto 30px;-webkit-background-size:auto 30px;background-size:auto 30px}.mw-mf-overlay .mw-mf-overlay-header{background-color:#F1F1F1}.mw-mf-overlay ul li{text-align:left}.mw-mf-overlay ul.informative{margin-left:16px;list-style:outside square;margin-bottom:16px}.mw-mf-overlay ul.informative li{margin-bottom:8px}.mw-mf-overlay div.content textarea{display:block;width:100%}.mw-mf-overlay .content .confirm,.mw-mf-overlay .content .cancel{display:block;margin:auto}.mw-mf-overlay .button-bar-centered{text-align:center;padding:.7em 1em;color:#707070}.mw-mf-overlay .button-bar-centered button{margin:0 .3em}.mw-mf-overlay .buttonBar{bottom:0;left:0;right:0;border-top:1px solid #ccc;background-color:#f3f3f3;z-index:4}.mw-mf-overlay .buttonBar p{padding:.7em 0;line-height:1.3;font-size:.9em;text-align:left}.mw-mf-overlay .buttonBar .license{background:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/../modules/images/cc-by-sa.png?2013-10-10T16:43:20Z) 0 10px no-repeat;background-size:auto 16px;padding-bottom:0;padding-left:55px;font-size:.75em !important;min-height:18px}.mw-mf-overlay .mw-mf-overlay-footer,.mw-mf-overlay .mw-mf-overlay-header{padding:4px 8px 4px 16px;margin:0;font-size:0.8em;color:#666;border-bottom:solid 1px #eee}.mw-mf-overlay .mw-mf-overlay-footer a{display:inline;color:#002BB8}.mw-mf-overlay.list-overlay .mw-mf-overlay-footer,.mw-mf-overlay.list-overlay .mw-mf-overlay-header{padding-left:40px}.mw-mf-overlay ul.actionable{cursor:pointer}.mw-mf-overlay ul.actionable li:hover{background-color:#ACD1E9}.mw-mf-overlay ul.actionable li > a{display:block;color:#666}.mw-mf-overlay ul.actionable li > a:active,.mw-mf-overlay ul.actionable li > a:hover,.mw-mf-overlay ul.actionable li > a:visited{text-decoration:none;color:#666}.mw-mf-overlay > ul{padding:0;position:relative;padding-bottom:20px;margin:0;background-color:white;list-style:none}.mw-mf-overlay > ul li{color:#666;border:none;position:relative;border-bottom:solid 1px #999999;border-bottom:solid 1px #eee;padding:12px 40px;font-size:0.9em}.drawer{text-align:center;padding:0 16px 1em}.drawer.text{line-height:1;font-size:.9em;text-align:left;padding-top:.5em}.drawer p{line-height:1.4;margin-top:.5em}.drawer a.close{padding:0 0 1.2em;display:block;overflow:hidden;text-indent:-9999px;width:100%;height:16px;background:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/../modules/images/show.png?2013-10-10T16:43:20Z) 50% 8px no-repeat}.drawer a.button{display:block;margin:1em 16px}.drawer a.signup{display:block}.drawer .progress-bar{margin:.9em 0 0}table{border-spacing:0 !important;float:none !important;margin-left:0 !important;width:100% !important}table.geography td{text-align:left !important;margin-left:0 !important;margin-right:0 !important}.thumb .thumbinner{margin:5px auto;max-width:100%}img.tex,#file img,.image img,.thumb img{max-width:100% !important;height:auto !important}.thumb .thumbcaption{width:100%;margin:5px 10px 0;text-align:center;width:auto !important}.thumb .noresize{width:100%;overflow-x:auto}.thumb .noresize img{max-width:none !important}.thumb .thumbinner > div{float:none !important;width:auto !important;clear:both !important}#content .navbox,#content .vertical-navbox,#content .topicon,#content .metadata{display:none}@media all and (min-width:768px){#content .navbox,#content .vertical-navbox{display:inherit}}ul.gallery{width:100% !important;max-width:100% !important}ul.gallery li.gallerybox{width:auto !important}ul.gallery li.gallerybox > div{width:auto !important}ul.gallery li.gallerybox > div > div.thumb{width:auto !important}#filetoc,.editsection,.mw-editsection{display:none}.stable #ca-talk,.client-nojs #ca-watch.cta,.client-nojs #ca-edit,.client-nojs #ca-upload,#ca-talk.selected{display:none}#section_0{margin:12px 16px 0 16px;padding-bottom:7px;border-bottom:dotted 1px #CACACA}#page-actions{padding:8px 16px 8px 8px;border-bottom:solid 1px #CACACA;height:30px}#page-actions li,#page-actions .watch-this-article{-o-background-size:auto 30px;-webkit-background-size:auto 30px;background-size:auto 30px}#page-actions li{cursor:pointer;position:relative;height:30px;width:40px;text-indent:-9999px;background-position:50% 0;background-repeat:no-repeat}#page-actions li input{opacity:0}#page-actions li input,#page-actions li a{position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;margin-bottom:8px;padding:0;border:0}.watch-this-article{background-image:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/images/pagemenu/watch.png?2013-10-10T16:43:20Z)}.watch-this-article.watched{background-image:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/images/pagemenu/watched.png?2013-10-10T16:43:20Z)}#ca-edit{background-image:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/images/pagemenu/edit-locked.png?2013-10-10T16:43:20Z);margin-right:17px}#ca-edit.enabled{background-image:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/images/pagemenu/edit.png?2013-10-10T16:43:20Z)}#ca-talk{margin-right:14px;background-image:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/images/pagemenu/talk.png?2013-10-10T16:43:20Z)}.talk{background-image:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/images/pagemenu/talk.png?2013-10-10T16:43:20Z);background-repeat:no-repeat;background-position:center center;text-indent:-999px;overflow:hidden}#ca-upload{margin-right:19px;background-image:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/images/pagemenu/upload-locked.png?2013-10-10T16:43:20Z)}#ca-upload input{display:none}#ca-upload.enabled{background-image:url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/images/pagemenu/upload.png?2013-10-10T16:43:20Z)}#ca-upload.enabled input{display:inline-block}#content table.ambox{display:none}code,pre{padding:0.2em 0.5em;font-family:monospace;border:solid 1px #CCC}pre{padding:1em}.mobile #coordinates{display:none}.dablink{margin-bottom:10px}table.navbox td.navbox-group{background:#ddddff;width:25%;padding:3px}table.navbox th.navbox-title{background:#ccccff;padding:5px}table.navbox td.navbox-abovebelow{padding:3px}table.navbox td.navbox-group + td{padding:3px}table.navbox td,table.navbox th{padding:0}table.navbox table{margin-bottom:0}table.infobox{background:#f9f9f9}table.infobox caption{display:block}table.infobox th,table.infobox td{border:0}.navbox .hlist dd,.navbox .hlist dt,.navbox .hlist li{white-space:pre-wrap !important;word-wrap:break-word}.mobile .portal-column-left-wide,.mobile .portal-column-left,.mobile .portal-column-right,.mobile .portal-column-right-narrow{float:none;width:100%}.collapsible td{width:auto !important}table.navbox{font-size:0.9em;width:100% !important}table.navbox div{padding-left:0 !important;padding-right:0 !important}table.navbox div a,table.navbox span{white-space:pre-wrap !important}table.infobox{text-align:center !important}table.infobox td,table.infobox th{border:1px solid #cccccc}.references-column-count{-moz-column-width:35em;-webkit-column-width:35em;column-width:35em}@media all and (min-width:768px){.beta #content_wrapper .section_heading,.beta #content_wrapper .content_block{margin-right:416px}.beta #content_wrapper .content_block{width:auto;clear:none}.beta #content_wrapper table{display:table}.beta #content_wrapper table tbody{display:table-row-group}.beta #content_wrapper table.infobox{max-width:400px;width:auto !important;float:right !important;margin-left:16px !important;clear:right !important}}.references li:target{background-color:#ddeeff}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:366737bf509a138c399bf03a71c177a1 */@media print {
+	#centralNotice {
+		display: none;
+	}
+}/**
+ * DO NOT EDIT THIS FILE
+ * This is an automatically generated css file.
+ * It was generated by LESS (http://lesscss.org).
+ * Please edit the corresponding less file instead.
+ * See README.mediawiki for details on installing.
+ */
+/* use -webkit prefix for older android browsers eg. nexus 1 */
+.alpha #page-actions #ca-talk.count a {
+  text-indent: 0;
+  text-align: center;
+  line-height: 38px;
+  font-weight: bold;
+  color: #FFF;
+  padding-left: 4px;
+  font-size: 9px;
+}
+.alpha #page-actions #ca-talk.count.loading a {
+  display: none;
+}
+.mw-mf-overlay .header button.add {
+  position: absolute;
+  right: 0;
+  top: 0;
+}/**
+ * DO NOT EDIT THIS FILE
+ * This is an automatically generated css file.
+ * It was generated by LESS (http://lesscss.org).
+ * Please edit the corresponding less file instead.
+ * See README.mediawiki for details on installing.
+ */
+/* use -webkit prefix for older android browsers eg. nexus 1 */
+/* Notifications */
+#notifications {
+  height: 0;
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+}
+.toast,
+.drawer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f3f3f3;
+  box-shadow: 0 -1px 8px 0 rgba(0,0,0,0.35);
+  word-wrap: break-word;
+  z-index: 5;
+  display: none;
+}
+.toast.visible,
+.drawer.visible {
+  display: block;
+}
+.animations .toast,
+.animations .drawer {
+  display: block;
+  visibility: hidden;
+  /* we can't determine the actual size of the drawer in CSS, so this is
+		 * an estimate; it doesn't have to be exact because it's used only for
+		 * the sliding animation, not for hiding the drawer */
+  -webkit-transform: translate3d(0,100px,0);
+  transform: translate3d(0,100px,0);
+  bottom: 100px;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: -webkit-transform .25s, opacity .25s, visibility 0s .25s, bottom 0s .25s;
+  transition: transform .25s, opacity .25s, visibility 0s .25s, bottom 0s .25s;
+}
+.animations .toast.visible,
+.animations .drawer.visible {
+  bottom: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: -webkit-transform .25s, opacity .25s;
+  transition: transform .25s, opacity .25s;
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+.toast {
+  font-size: .9em;
+  padding: .9em 1em;
+  background-color: #373737;
+  color: #fff;
+  margin: 0 10% 20px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 80%;
+  text-align: center;
+  border-radius: 3px;
+}
+.toast.error {
+  background-image: url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/images/error.png?2013-10-10T16:43:20Z);
+  background-position: 16px 50%;
+  background-repeat: no-repeat;
+  padding-left: 5%;
+  width: 75%;
+  border: none;
+}
+.toast.landmark {
+  color: #F7F737;
+}
+.references h3 {
+  margin: 0;
+  padding-right: 4px;
+  display: inline;
+}
+.references .mw-cite-backlink {
+  display: none;
+}
+.references button {
+  float: right;
+  margin-top: .7em;
+  width: 16px;
+  height: 12px;
+  background: url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/../common/images/close-button-beta.png?2013-10-10T16:43:20Z) no-repeat 0 50%;
+  -o-background-size: auto 12px;
+  -webkit-background-size: auto 12px;
+  background-size: auto 12px;
+}/**
+ * DO NOT EDIT THIS FILE
+ * This is an automatically generated css file.
+ * It was generated by LESS (http://lesscss.org).
+ * Please edit the corresponding less file instead.
+ * See README.mediawiki for details on installing.
+ */
+/* use -webkit prefix for older android browsers eg. nexus 1 */
+.loading {
+  background-image: url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/common/images/ajax-loader.gif?2013-10-10T16:43:20Z) !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  -o-background-size: 32px auto;
+  -webkit-background-size: 32px auto;
+  background-size: 32px auto;
+  min-height: 30px;
+}
+.loading.spinner {
+  height: 100px;
+}
+.loading.content {
+  padding-top: 48px;
+  text-align: center;
+  background-position: 50% 0;
+}
+.loading.drawer,
+.loading.buttonBar {
+  background-position: 16px 50%;
+  padding-left: 60px;
+}
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  border: 1px solid #9ea0a3;
+  box-shadow: inset 0 0 4px #bbb;
+}
+.progress-bar .value {
+  width: 0;
+  height: 100%;
+  background: #3366BB;
+}
+.alpha {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/**
+ * DO NOT EDIT THIS FILE
+ * This is an automatically generated css file.
+ * It was generated by LESS (http://lesscss.org).
+ * Please edit the corresponding less file instead.
+ * See README.mediawiki for details on installing.
+ */
+/* use -webkit prefix for older android browsers eg. nexus 1 */
+button.languageSelector {
+  margin-top: .5em;
+}
+.language-overlay > ul {
+  padding-bottom: 0;
+}
+.language-overlay > ul .preferred {
+  font-weight: bold;
+}
+
+/* Search and navigation menu
+moved from beta_common.css in
+Change-Id: Id7715a83f8dc42cbdb23d8cbf982801606236f7c
+*/
+/**
+ * DO NOT EDIT THIS FILE
+ * This is an automatically generated css file.
+ * It was generated by LESS (http://lesscss.org).
+ * Please edit the corresponding less file instead.
+ * See README.mediawiki for details on installing.
+ */
+/* use -webkit prefix for older android browsers eg. nexus 1 */
+.mw-mf-overlay input.search {
+  /* visual indication that search is happening */
+  padding-right: 32px;
+}
+.mw-mf-overlay input.search.searching {
+  background-color: #eee;
+}
+form {
+  position: relative;
+}
+form .clear {
+  top: .5em;
+  right: 0;
+  width: 32px;
+  height: 32px;
+  background: url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/modules/../common/images/close-button-beta.png?2013-10-10T16:43:20Z) no-repeat scroll 50% 50%;
+  -o-background-size: auto 12px;
+  -webkit-background-size: auto 12px;
+  background-size: auto 12px;
+  cursor: pointer;
+  position: absolute;
+}
+.suggestions-results .error {
+  color: #666;
+  border: none;
+  border-bottom: solid 1px #eee;
+  padding: 12px 40px;
+  background: none;
+  min-height: auto;
+  font-size: 0.9em;
+}
+.suggestions-results .error p,
+.suggestions-results .error .content {
+  margin: 0;
+}
+
+/**
+ * DO NOT EDIT THIS FILE
+ * This is an automatically generated css file.
+ * It was generated by LESS (http://lesscss.org).
+ * Please edit the corresponding less file instead.
+ * See README.mediawiki for details on installing.
+ */
+/* use -webkit prefix for older android browsers eg. nexus 1 */
+a.mw-mf-cleanup {
+  display: block;
+  padding: 10px 15px 10px 44px;
+  background-image: url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/modules/images/issues-blue.png?2013-10-10T16:43:20Z);
+  background-repeat: no-repeat;
+  margin-bottom: 4px;
+  -o-background-size: 24px 24px;
+  -webkit-background-size: 24px 24px;
+  background-size: 24px 24px;
+  background-position: 10px center;
+}
+a.mw-mf-cleanup:hover {
+  background-image: url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/modules/images/issues-gray.png?2013-10-10T16:43:20Z);
+  text-decoration: none;
+  color: #565656;
+  background-color: #f0f0f0;
+}
+ul.cleanup img {
+  display: block;
+  margin: 0 auto 1em auto;
+}
+
+/**
+ * DO NOT EDIT THIS FILE
+ * This is an automatically generated css file.
+ * It was generated by LESS (http://lesscss.org).
+ * Please edit the corresponding less file instead.
+ * See README.mediawiki for details on installing.
+ */
+/* use -webkit prefix for older android browsers eg. nexus 1 */
+a.watch-this-article.loading {
+  background-image: url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/modules/../common/images/ajax-loader.gif?2013-10-10T16:43:20Z);
+}
+.animations .watch-this-article {
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: -webkit-transform .5s;
+  transition: transform .5s;
+}
+.animations .watch-this-article.watched {
+  -webkit-transform: rotate(72deg);
+  transform: rotate(72deg);
+}
+li a.watch-this-article {
+  right: 8px;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 24px;
+  background-position: center center;
+  margin: 0;
+}
+
+/**
+ * DO NOT EDIT THIS FILE
+ * This is an automatically generated css file.
+ * It was generated by LESS (http://lesscss.org).
+ * Please edit the corresponding less file instead.
+ * See README.mediawiki for details on installing.
+ */
+/* use -webkit prefix for older android browsers eg. nexus 1 */
+.button.photo {
+  position: relative;
+  display: table;
+  margin: 0 auto;
+  padding-left: 44px;
+  text-align: left;
+  /* override text-align center - chrome not clickable */
+}
+.button.photo div {
+  background: url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/modules/images/camera.png?2013-10-10T16:43:20Z) left 45% no-repeat;
+  margin: 0 10px;
+  -o-background-size: 24px auto;
+  -webkit-background-size: 24px auto;
+  background-size: 24px auto;
+}
+.button.photo input {
+  opacity: 0;
+  z-index: 2;
+}
+.button.photo input,
+.button.photo div {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#content > .button.photo {
+  display: block;
+  margin-bottom: 10px;
+}
+.photo-overlay .content {
+  padding-bottom: 11em !important;
+}
+.photo-overlay .help {
+  display: block;
+}
+.photo-overlay img {
+  height: 90px;
+  float: left;
+  margin: 0 8px 8px 0;
+}
+.photo-overlay .loading {
+  background-position: 0 50%;
+  padding: 0 0 0 48px;
+  margin: 0;
+  line-height: 90px;
+}
+.photo-overlay textarea {
+  width: 100%;
+  height: 6em;
+}
+.photo-overlay textarea::-webkit-input-placeholder,
+.photo-overlay textarea::-moz-placeholder {
+  text-align: center;
+  line-height: 6em;
+}
+@keyframes pulse {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: .2;
+  }
+}
+@-webkit-keyframes pulse {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: .2;
+  }
+}
+.photo-nag {
+  height: 90%;
+}
+.photo-nag .preview {
+  height: 50%;
+  -o-background-size: 100% auto;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.photo-nag .preview.loading {
+  -o-background-size: 32px auto;
+  -webkit-background-size: 32px auto;
+  background-size: 32px auto;
+}
+.photo-nag li {
+  clear: both;
+  min-height: 50px;
+  padding: 0 0 1em 66px;
+  line-height: 1.25;
+}
+.photo-nag label div {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin: 0 0 0 -66px;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 50px;
+  border: 3px solid #939393;
+  border-radius: 50px;
+  background: #e6e7e8 url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/modules/images/confirm.png?2013-10-10T16:43:20Z) 50% 50% no-repeat;
+  -o-background-size: 24px 24px;
+  -webkit-background-size: 24px 24px;
+  background-size: 24px 24px;
+}
+.photo-nag label div input {
+  display: none;
+}
+.photo-nag label div.checked {
+  background-color: #006398;
+  background-image: url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/modules/images/confirmChecked.png?2013-10-10T16:43:20Z);
+  border-color: #006398;
+}
+.photo-nag strong {
+  padding: .3em 0;
+  display: block;
+  font-weight: normal;
+  font-size: 1.2em;
+  line-height: 1;
+}
+.animations .photo-nag label div.active {
+  -webkit-animation: pulse 1s ease-in-out infinite alternate;
+  animation: pulse 1s ease-in-out infinite alternate;
+}
+@media (min-width: 768px) {
+  .photo-nag .preview {
+    -o-background-size: auto 100%;
+    -webkit-background-size: auto 100%;
+    background-size: auto 100%;
+    background-position: 50% 50%;
+  }
+}
+
+/* Tutorial overlay styling */
+/**
+ * DO NOT EDIT THIS FILE
+ * This is an automatically generated css file.
+ * It was generated by LESS (http://lesscss.org).
+ * Please edit the corresponding less file instead.
+ * See README.mediawiki for details on installing.
+ */
+/* use -webkit prefix for older android browsers eg. nexus 1 */
+.cloaked input {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.tutorial {
+  padding-left: 16px;
+  padding-right: 16px;
+  line-height: 1.4;
+  font-size: 0.9em;
+  background-color: #006398;
+  color: white;
+  height: 100%;
+  box-shadow: 0 1px 5px 0 rgba(117,117,117,0.8);
+}
+.tutorial .slide {
+  text-align: center;
+  background-size: auto 180px;
+  background-repeat: no-repeat;
+  background-position: center -10px;
+  padding: 10px 0;
+  width: 100%;
+}
+.tutorial .slide p {
+  line-height: 1.4;
+  margin: 0 0 1em;
+}
+.tutorial .slide button.actionable,
+.tutorial .slide button,
+.tutorial .slide .button {
+  position: relative;
+  background-color: white;
+  color: #006398;
+  padding: 12px;
+  border: none;
+  font-weight: bold;
+}
+.tutorial .slide .cancel {
+  background: none;
+  color: white;
+}
+.tutorial .photo-upload {
+  padding-top: 160px;
+  background-image: url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/modules/images/tutorials/photos.png?2013-10-10T16:43:20Z);
+}
+.tutorial .editing {
+  padding-top: 20px;
+}
+
+/**
+ * DO NOT EDIT THIS FILE
+ * This is an automatically generated css file.
+ * It was generated by LESS (http://lesscss.org).
+ * Please edit the corresponding less file instead.
+ * See README.mediawiki for details on installing.
+ */
+/* use -webkit prefix for older android browsers eg. nexus 1 */
+/*
+hide the bar (and give more editing space) when the keyboard is visible
+Note: Although an iPhone in portrait mode has a height of 480px, when you take into account
+the navigation bar which has height of about 124px the screen shrinks to 356px
+http://www.zingdesign.com/responsive-website-design-cheatsheet1/
+*/
+.content .edit-page {
+  position: absolute;
+  background: url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/modules/../common/images/pagemenu/edit.png?2013-10-10T16:43:20Z) 100% .5em no-repeat;
+  -o-background-size: auto 30px;
+  -webkit-background-size: auto 30px;
+  background-size: auto 30px;
+  text-indent: -9999px;
+  border-left: solid 1px #E2E3E4;
+  width: 35px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.content h1.openSection .edit-page,
+.content h2.openSection .edit-page {
+  display: block;
+}
+.stub .edit-page {
+  margin: 0;
+  display: block;
+}
+.editor-overlay textarea {
+  width: 100%;
+  min-height: 50%;
+  padding: 10px 16px 8em;
+  line-height: 1.5;
+  border: none;
+  resize: none;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.editor-overlay textarea:focus {
+  outline: none;
+}
+.editor-overlay input {
+  margin: 0 0 .7em;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.editor-overlay .preview {
+  display: none;
+  padding-bottom: 15em;
+}
+.editor-overlay .preview > h2 {
+  font: bold .75em "Helvetica Neue", "Helvetica", "Nimbus Sans L", "Arial", "Liberation Sans", sans-serif;
+  color: #707070;
+  text-align: center;
+  background: #f3f3f3 url(//bits.wikimedia.org/static-1.22wmf21/extensions/MobileFrontend/less/modules/images/preview-bg.png?2013-10-10T16:43:20Z) 50% 50% repeat-x;
+  -o-background-size: auto .8em;
+  -webkit-background-size: auto .8em;
+  background-size: auto .8em;
+  line-height: 1.7;
+  text-transform: uppercase;
+}
+.editor-overlay .buttonBar {
+  display: none;
+  box-shadow: 0 -10px 10px 0 #fff;
+}
+.editor-overlay .initial-bar {
+  display: block;
+}
+.editor-overlay .initial-bar p {
+  display: inline-block;
+  text-align: center;
+  padding-top: 0;
+  margin: 0 0 .7em;
+  border-bottom: 1px solid #ccc;
+}
+@media (max-height: 355px) {
+  .editor-overlay .initial-bar {
+    position: static;
+  }
+}
+.android2 .editor-overlay textarea {
+  line-height: 1.2;
+}/* MediaWiki:Mobile.css */
+/* Mobile template hacks (see bug 54176) */
+.mobile-float-reset {
+    float: none !important;
+    width: 100% !important;
+}
+.no-mobile {
+    display: none;
+}
+/* Temporary fix for WLM CentralNotice banner which does not look good on mobile. Remove after campaign has finished. */
+#wlm-banner {
+    margin-bottom: 0 !important;
+    font-size: 0.8em !important;
+    text-align: left !important;
+}
+#wlm-banner .wlm_2012_org_image {
+    margin-left: 0 !important;
+}
+.wlm_2012_org_image:last-child {
+    display: none;
+}
+
+/* Styling for citations (CSS3). Breaks long urls, etc., rather than overflowing box */
+.citation {
+    word-wrap: break-word;
+}
+
+/* Temporary fix for bug 53437 - nav boxes can disrupt reading experience on smaller screens */
+#content .vertical-navbox,
+#content .navbox {
+	display: none;
+}
+
+/* Tablet specific styling */
+@media all and (min-width: 768px) {
+	#content .vertical-navbox,
+	#content .navbox {
+		display: inherit;
+	}
+}
+
+/* For linked citation numbers and document IDs, where
+   the number need not be shown on a screen or a handheld,
+   but should be included in the printed version */
+@media screen, handheld {
+    .citation *.printonly {
+        display: none;
+    }
+}
+
+/* Default styling for Navbar template */
+.navbar {
+    display: inline;
+    font-size: 88%;
+    font-weight: normal;
+}
+.navbar ul {
+    display: inline;
+    white-space: nowrap;
+}
+.navbar li {
+    word-spacing: -0.125em;
+}
+.navbar.mini li span {
+  font-variant: small-caps;
+}
+/* Navbar styling when nested in infobox and navbox */
+.infobox .navbar {
+    font-size: 100%;
+}
+.navbox .navbar {
+    display: block;
+    font-size: 100%;
+}
+.navbox-title .navbar {
+    /* @noflip */
+    float: left;
+    /* @noflip */
+    text-align: left;
+    /* @noflip */
+    margin-right: 0.5em;
+    width: 6em;
+}
+
+/* Style for horizontal lists (separator following item).
+   @source mediawiki.org/wiki/Snippets/Horizontal_lists
+   @revision 3.2 (2013-09-25)
+   @author: [[User:Edokter]]
+*/
+.hlist dl,
+.hlist ol,
+.hlist ul {
+    margin: 0;
+    padding: 0;
+}
+/* Display list items inline and make them nowrap */
+.hlist dd,
+.hlist dt,
+.hlist li {
+    margin: 0;
+    display: inline;
+    white-space: nowrap;
+}
+/* Allow wrapping for list items (in tight spaces) */
+.hlist.hwrap dd,
+.hlist.hwrap dt,
+.hlist.hwrap li {
+    white-space: normal;
+}
+/* Display nested lists inline and allow them to wrap */
+.hlist dl dl, .hlist dl ol, .hlist dl ul,
+.hlist ol dl, .hlist ol ol, .hlist ol ul,
+.hlist ul dl, .hlist ul ol, .hlist ul ul {
+    display: inline;
+    white-space: normal;
+}
+/* Generate interpuncts */
+#content .hlist dt:after {
+    content: ":";
+}
+#content .hlist dd:after,
+#content .hlist li:after {
+    content: " ·";
+    font-weight: bold;
+}
+#content .hlist dd:last-child:after,
+#content .hlist dt:last-child:after,
+#content .hlist li:last-child:after {
+    content: none;
+}
+/* Add parentheses around nested lists */
+#content .hlist dd dd:first-child:before, #content .hlist dd dt:first-child:before, #content .hlist dd li:first-child:before,
+#content .hlist dt dd:first-child:before, #content .hlist dt dt:first-child:before, #content .hlist dt li:first-child:before,
+#content .hlist li dd:first-child:before, #content .hlist li dt:first-child:before, #content .hlist li li:first-child:before {
+    content: "(";
+    font-weight: normal;
+}
+#content .hlist dd dd:last-child:after, #content .hlist dd dt:last-child:after, #content .hlist dd li:last-child:after,
+#content .hlist dt dd:last-child:after, #content .hlist dt dt:last-child:after, #content .hlist dt li:last-child:after,
+#content .hlist li dd:last-child:after, #content .hlist li dt:last-child:after, #content .hlist li li:last-child:after {
+    content: ")";
+    font-weight: normal;
+}
+/* Put ordinals in front of ordered list items */
+#content .hlist ol {
+    counter-reset: list-item;
+}
+#content .hlist ol > li {
+    counter-increment: list-item;
+}
+#content .hlist ol > li:before {
+    content: counter(list-item) " ";
+}
+#content .hlist dd ol > li:first-child:before,
+#content .hlist dt ol > li:first-child:before,
+#content .hlist li ol > li:first-child:before {
+    content: "(" counter(list-item) " ";
+}
+ 
+/* Unbulleted lists */
+.plainlist ul {
+    line-height: inherit;
+    list-style: none none;
+    margin: 0;
+}
+.plainlist ul li {
+    margin-bottom: 0;
+}
+
+/* CODE FOR COMPACT AMBOX */
+/* Hide the images */
+.compact-ambox table .mbox-image,
+.compact-ambox table .mbox-imageright,
+.compact-ambox table .mbox-empty-cell {
+    display: none;
+}
+/* Remove borders, backgrounds, padding, etc.
+Please document here what pages use this
+*/
+.compact-ambox table.ambox {
+    border: none;
+    border-collapse: collapse;
+    background: transparent;
+    margin: 0 0 0 1.6em !important;
+    padding: 0 !important;
+    width: auto;
+    display: block;
+}
+.compact-ambox table.mbox-small-left {
+    font-size: 100%;
+    width: auto;
+    margin: 0;
+}
+/* Style the text cell as a list item and remove its padding */
+.compact-ambox table .mbox-text {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.compact-ambox table .mbox-text-span {
+    display: list-item;
+    line-height: 1.5em;
+    list-style-type: square;
+    list-style-image: url("data:image/gif;base64,R0lGODlhBQANAIAAAGOMnP///yH5BAEAAAEALAAAAAAFAA0AAAIJjI+pu+APo4SpADs=");
+}
+/* Allow for hiding text in compact form */
+.compact-ambox .hide-when-compact {
+    display: none;
+}
+
+/* Hatnotes and disambiguation notices
+Please document here what pages use this
+ */
+.rellink,
+.dablink {
+    font-style: italic;
+    margin-bottom: 0.5em;
+}
+.rellink i,
+.dablink i {
+    font-style: normal;
+}
+
+/* Geographical coordinates defaults. See [[Template:Coord/link]]
+   for how these are used. The classes "geo", "longitude", and
+   "latitude" are used by the [[Geo microformat]]. */
+.geo-default, .geo-dms, .geo-dec  { display: inline; }
+.geo-nondefault, .geo-multi-punct { display: none; }
+.longitude, .latitude             { white-space: nowrap; }
+
+/* Prevent line breaks in silly places:
+   1) Where desired
+   2) Links when we don't want them to
+   3) Bold "links" to the page itself
+   4) Ref tags with group names <ref group="Note"> --> "[Note 1]"
+Please document here what pages use this
+*/
+.nowrap,
+.nowraplinks a,
+.nowraplinks .selflink,
+sup.reference a {
+    white-space: nowrap;
+}
+/* But allow wrapping where desired: */
+.wrap,
+.wraplinks a {
+    white-space: normal;
+}
+
+/* Hide stuff meant for accounts with special permissions. Made visible again in
+   [[MediaWiki:Group-sysop.css]], [[MediaWiki:Group-accountcreator.css]] and
+   [[MediaWiki:Group-autoconfirmed.css]]. */
+.sysop-show,
+.accountcreator-show,
+.autoconfirmed-show {
+    display: none;
+}
+
+#li-coordinates {
+    background-image: url(//upload.wikimedia.org/wikipedia/commons/thumb/5/57/Edge-firefox.png/80px-Edge-firefox.png);
+    float: right;
+    display: none;
+    -webkit-background-size: auto 30px;
+    background-size: auto 30px;
+}
+
+.client-js .content_block.coordinates {
+    display: none;
+    text-align: right;
+    margin-bottom: 0.5em;
+    font-size: smaller;
+}
+
+.client-js .content_block.coordinates .latitude {
+    display:none;
+    padding-left: 20px;
+    background-image: url(//upload.wikimedia.org/wikipedia/commons/thumb/5/57/Edge-firefox.png/50px-Edge-firefox.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: auto 15px;
+    background-size: auto 15px;
+}
+
+/* Until Geohack is mobile optimised and/or there is a nice alternative e.g. map namespace */
+.alpha #li-coordinates {
+    display: list-item;
+}
+
+.client-js .beta .content_block.coordinates {
+    display: block;
+}
+
+.client-js .beta .content_block.coordinates .latitude {
+    display:inline;
+}
+
+.topicon {
+    display: none;
+}
+
+/* Remove this when mobile page creation goes out of beta */
+.stub {
+    display: none;
+}/**
+ * DO NOT EDIT THIS FILE
+ * This is an automatically generated css file.
+ * It was generated by LESS (http://lesscss.org).
+ * Please edit the corresponding less file instead.
+ * See README.mediawiki for details on installing.
+ */
+/* use -webkit prefix for older android browsers eg. nexus 1 */
+.mw-mf-overlay .mw-mf-notifications {
+  padding-bottom: 0;
+}
+.mw-mf-overlay .mw-echo-icon {
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-right: 10px;
+}
+.mw-mf-overlay .mw-echo-content {
+  margin-left: 40px;
+}
+.mw-mf-overlay .mw-echo-notification-footer {
+  font-size: 0.75em;
+}
+.mw-mf-overlay .mw-echo-notification-primary-link {
+  display: none;
+}
+.mw-mf-overlay .mw-echo-notification:hover {
+  background-color: #F9F9F9;
+}
+.mw-mf-overlay .mw-echo-linked-notification {
+  cursor: pointer;
+}
+.mw-mf-overlay #notifications-archive-link {
+  display: block;
+  padding: 12px 0 20px 40px;
+}

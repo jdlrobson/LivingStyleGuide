@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<!-- UNCOMMENT AND ADD YOUR CSS FILE HERE
+<link type="text/css" rel="stylesheet" href="2.css">
+-->
+</head>
+<body>
+<h1>Living Style Guide</h1>
+To make a living style guide simply add a stylesheet to this page!
+<select id="demo-choice">
+	<option value="demos/mediawiki-mobile.css">mediawiki mobile</option>
+	<option value="demos/mediawiki-ve.css">mediawiki visual editor</option>
+	<option value="demos/mediawiki-desktop-styles.css">mediawiki vector styles</option>
+	<option value="demos/twitter.css">twitter</option>
+	<option value="demos/github.css">github</option>
+	<option value="demos/apple-com.css">apple.com</option>
+</select>
+<button id="demo-start">demo</button>
+<script type="text/javascript" src="lsg.js"></script>
+<script type="text/javascript">
+var options = { closeOnHide: true };
+document.getElementById( 'demo-start' ).addEventListener( 'click', function() {
+	var ss = document.createElement( 'link' );
+	ss.setAttribute( 'type', 'text/css' );
+	ss.setAttribute( 'rel', 'stylesheet' );
+	ss.setAttribute( 'href', document.getElementById( 'demo-choice' ).value );
+	ss.addEventListener( 'load', function() {
+		document.body.innerHTML = '';
+		lsg.init( options );
+	} );
+	document.head.appendChild( ss );
+} );
+window.lsg.init( options );
+</script>
+</body>
+</html>
