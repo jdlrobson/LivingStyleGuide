@@ -175,6 +175,13 @@
 			}
 		}
 	}
+	function notSupported() {
+		alert( "You're browser is old and ugly and doesn't support me. Try a newer one." );
+	}
 	init( { closeOnHide: true } );
-	w.lsg = { init: init };
+	if (document.querySelectorAll ) {
+		w.lsg = { init: init };
+	} else {
+		w.lsg = { init: notSupported };
+	}
 } ( window ) );
